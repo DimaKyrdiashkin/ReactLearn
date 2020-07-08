@@ -1,0 +1,31 @@
+.info{
+    color:white;
+}
+.info{
+    background-position: left center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.info_bg{
+    background: rgba(12, 12, 12, 0.5);
+    backdrop-filter: blur(5px);
+    padding: 284px 0 233px;
+}
+.info_first{
+    max-width: 1526px;
+    display: flex;
+    justify-content: space-between;
+}
+.info_first_left{
+
+}
+.info_first_left_h2{
+    color: white;
+    margin-bottom: 100px;
+}
+.info_first_left_ul li{
+    margin-bottom: 20px;
+}
+.info_first_right_h2{
+    margin-bottom: 72px;
+}
