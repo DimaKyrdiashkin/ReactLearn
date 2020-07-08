@@ -2,8 +2,9 @@ import React from 'react';
 import PromoContent from '../components/PromoContent';
 
  const Home =()=>{
+   let text = `GAME LIKE \n LIFE, IS\nNOT PREDICTIBLE`;
     return (
-      <PromoContent headText="GAME LIKE LIFE, IS NOT PREDICTIBLE"/>
+      <PromoContent headText={text}/>
   );
 }
   

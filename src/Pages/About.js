@@ -3,7 +3,7 @@ import PromoContent from '../components/PromoContent';
 
  const About =()=> {
     return (
-      <PromoContent headText="COMPILE IDEAS INTO CODE AND DESIGN"/>
+      <PromoContent headText={`COMPILE IDEAS\nINTO CODE\nAND DESIGN`}/>
     );
 }
 export default About
