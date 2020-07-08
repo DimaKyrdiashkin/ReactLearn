@@ -1,0 +1,27 @@
+body{
+  background: #0C0C0C;
+  color: #fff;
+}
+a{
+  color: #fff;
+}
+nav a{
+  position: relative;
+}
+nav a::before{
+  position: absolute;
+  content: '';
+  display: block;
+  width: 0;
+  transition: .5s;
+  background: #fff;
+  height: 2px;
+  left: 0;
+  bottom: -5px;
+}
+nav a.active::before{
+  width: 100%;
+}
+.wrapper{
+  padding-top: 25px;
+}
