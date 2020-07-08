@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
   background: #0C0C0C;
   color: #fff;
@@ -26,10 +30,9 @@ nav a.active::before{
   width: 100%;
 }
 .promoContent{
-  padding-top: 25px;
   background: url(./assets/promoBack.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: calc(100vh - 25px);
+  height: calc(100vh - 125px);
 }

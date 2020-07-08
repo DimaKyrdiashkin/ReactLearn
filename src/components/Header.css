@@ -4,8 +4,12 @@ header {
     align-items: center;
     max-width: 1700px;
     margin: 0 auto;
+    height: 125px;
 }
-
+.header{
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(20px);
+}
 .header img {
     width: 50px;
     object-fit: contain;
