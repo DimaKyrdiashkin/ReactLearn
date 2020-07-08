@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
-// import CarouselBox from '../components/CarouselBox';
+import React from 'react';
+import PromoContent from '../components/PromoContent';
 
-export default class Home extends Component {
-  render() {
+ const Home =()=>{
     return (
-        <div>  </div>
-    );
-  }
+      <PromoContent headText="GAME LIKE LIFE, IS NOT PREDICTIBLE"/>
+  );
 }
+  
+    
+export default Home

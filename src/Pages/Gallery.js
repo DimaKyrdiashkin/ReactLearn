@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PromoContent from '../components/PromoContent';
 
-export default class Gallery extends Component {
-  render() {
+const Gallery =()=> {
     return (
-      <div>  </div>
+      <PromoContent headText="RECORDING THE SOUND OF SOUL"/>
     );
-  }
 }
+export default Gallery

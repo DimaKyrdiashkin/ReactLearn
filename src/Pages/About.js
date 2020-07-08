@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PromoContent from '../components/PromoContent';
 
-export default class About extends Component {
-  render() {
+ const About =()=> {
     return (
-      <div>  </div>
+      <PromoContent headText="COMPILE IDEAS INTO CODE AND DESIGN"/>
     );
-  }
 }
+export default About

@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PromoContent from '../components/PromoContent';
 
-export default class Contact extends Component {
-  render() {
+const Contact =()=> {
     return (
-      <div>  </div>
+      <PromoContent headText="COMPILE IDEAS INTO"/>
     );
-  }
 }
+export default Contact

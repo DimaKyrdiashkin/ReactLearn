@@ -2,6 +2,9 @@ body{
   background: #0C0C0C;
   color: #fff;
 }
+h1{
+  font-size: 1em;
+}
 a{
   color: #fff;
 }
@@ -22,6 +25,11 @@ nav a::before{
 nav a.active::before{
   width: 100%;
 }
-.wrapper{
+.promoContent{
   padding-top: 25px;
+  background: url(./assets/promoBack.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: calc(100vh - 25px);
 }
