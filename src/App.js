@@ -11,7 +11,6 @@ function App() {
   return (
     <div className='wrapper'>
       <BrowserRouter>
-      <p>Не Валик хуйло</p>
         <PromoContent/>     
         <Route exact path='/gallery' component={Gallery} />
         <Route exact path='/about' component={About} />
