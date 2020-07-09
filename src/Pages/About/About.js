@@ -1,5 +1,5 @@
 import React from 'react';
-import PromoContent from '../components/PromoContent';
+import PromoContent from '../../components/PromoContent';
 
  const About =()=> {
     return (

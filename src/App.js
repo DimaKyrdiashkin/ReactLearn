@@ -11,12 +11,12 @@ function App() {
   return (
     <div className='wrapper'>
       <BrowserRouter>
-        <Header/>
+        <Header />
         <Switch>
-          <Route exact path='/gallery' component={Gallery} />
-          <Route exact path='/about' component={About} />
-          <Route exact path='/contact' component={Contact} />
-          <Route exact path='/' component={Home} />
+          <Route path='/gallery' component={Gallery} />
+          <Route path='/about' component={About} />
+          <Route path='/contact' component={Contact} />
+          <Route path='/' component={Home} />
         </Switch>
       </BrowserRouter>
     </div>
