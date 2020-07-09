@@ -17,12 +17,12 @@ const Home =()=>{
              }
          }
      }
-    let text = `GAME LIKE \n LIFE, IS\nNOT PREDICTIBLE`;
+    let text2 = `GAME LIKE \n LIFE, IS\nNOT PREDICTIBLE`;
     return (
     <>
       <PromoContent headText={text}/>
     <InfoContext.Provider
-        value ={{text}}
+        value ={{text2}}
     >
         <Info/>
     </InfoContext.Provider>
