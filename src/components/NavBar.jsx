@@ -6,10 +6,10 @@ const NavBar =()=>{
     return(
         <nav>
             <NavLink exact to='/'>web design</NavLink>
-            <NavLink to='/gallery'>motion design</NavLink>
-            <NavLink to='/about'>sound production</NavLink>
-            <NavLink to='/contact'>game development</NavLink>
-            <NavLink to='/contact'>about us</NavLink>
+            <NavLink to='/motion'>motion design</NavLink>
+            <NavLink to='/sound'>sound production</NavLink>
+            <NavLink to='/game'>game development</NavLink>
+            <NavLink to='/about'>about us</NavLink>
         </nav>
       );
 }
