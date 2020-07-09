@@ -16,11 +16,11 @@ function App() {
       <BrowserRouter>
         <Header />
         <Switch>
+          <Route exact path='/' component={Web} />
           <Route path='/motion' component={Motion} />
           <Route path='/sound' component={Sound} />
           <Route path='/game' component={Game} />
           <Route path='/about' component={About} />
-          <Route path='/' component={Web} />
         </Switch>
       </BrowserRouter>
     </div>
