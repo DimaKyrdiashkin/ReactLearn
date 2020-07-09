@@ -15,6 +15,7 @@ a{
 }
 nav a{
   position: relative;
+  text-transform: uppercase;
 }
 nav a::before{
   position: absolute;

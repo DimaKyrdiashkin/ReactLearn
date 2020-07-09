@@ -1,5 +1,5 @@
 import React from 'react';
-import PromoContent from '../components/PromoContent';
+import PromoContent from '../../components/PromoContent';
 import Images from "../assets/promoImg/promo2.png"; 
 
 const Gallery =()=> {

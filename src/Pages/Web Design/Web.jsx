@@ -1,8 +1,8 @@
 import React from 'react';
-import PromoContent from '../components/PromoContent';
-import Info from "../components/Info";
-import {InfoContext} from "../App";
-import Images from "../assets/promoImg/promo1.png"; 
+import PromoContent from '../../components/PromoContent';
+import Info from "../../components/Info";
+import {InfoContext} from "../../App";
+import Images from "../../assets/promoImg/promo1.png"; 
 
 
 const Home =()=>{
