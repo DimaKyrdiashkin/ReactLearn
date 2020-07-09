@@ -4,7 +4,7 @@ import Images from "../../assets/promoImg/promo4.png";
 
 const Sound = () => {
     return (
-        <PromoContent headText={`RECOR\nDING THE\nSOUND OF\nSOUL`} promoSrc={Images}/>
+        <PromoContent headText={`RECOR\nDING\nTHE\nSOUND\nOF\nSOUL`} promoSrc={Images}/>
     );
 }
 

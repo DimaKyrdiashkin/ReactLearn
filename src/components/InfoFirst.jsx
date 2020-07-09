@@ -19,7 +19,7 @@ const InfoFirstComponent = ({infoText}) => {
             <div className="container">
                 <div className="info_first">
                     <div className={"info_first_left"}>
-                        <h3 className={"info_first_left_h2"}>{infoText.first.left.title}</h3>
+                        <p className={"info_first_left_h2 subtitle"}>{infoText.first.left.title}</p>
                         <ul className={'info_first_left_ul'}>
                             {infoText.first.left.list.map((value) => {
                                 return <li key={value.toString()}>{value}</li>

@@ -4,7 +4,7 @@ import Images from "../../assets/promoImg/promo3.png";
 
 const Game =()=> {
     return (
-      <PromoContent headText={`RECORDING\nTHE\nSOUND OF\nSOUL`} promoSrc={Images}/>
+      <PromoContent headText={`RECOR\nDING\nTHE\nSOUND\nOF\nSOUL`} promoSrc={Images}/>
     );
 }
 export default Game

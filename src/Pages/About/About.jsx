@@ -4,7 +4,7 @@ import Images from "../../assets/promoImg/promo3.png";
 
  const About =()=> {
     return (
-      <PromoContent headText={`COMPILE IDEAS\nINTO CODE\nAND DESIGN`} promoSrc={Images}/>
+      <PromoContent headText={`COMPILE\nIDEAS\nINTO\nCODE\nAND\nDESIGN`} promoSrc={Images}/>
     );
 }
 export default About

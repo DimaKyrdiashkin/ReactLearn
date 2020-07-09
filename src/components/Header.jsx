@@ -13,6 +13,10 @@ const Header =()=>  {
                       className='logo'
                 />
                 <NavBar/>
+                <img src={logo}
+                      alt='logo'
+                      className='logo'
+                />
             </header>
         </div>
     );
