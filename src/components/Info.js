@@ -2,6 +2,7 @@ import React from "react";
 import './Info.css'
 import bg from './../assets/info_bg.png'
 import InfoFirst from "./InfoFirst";
+
 const Info = () => {
     const style = {
         info: {

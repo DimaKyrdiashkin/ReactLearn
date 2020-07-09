@@ -3,7 +3,7 @@ import PromoContent from '../components/PromoContent';
 
 const Contact =()=> {
     return (
-      <PromoContent headText={`RECORDING THE\nSOUND OF\nSOUL`}/>
+      <PromoContent headText={`RECORDING\nTHE\nSOUND OF\nSOUL`}/>
     );
 }
 export default Contact

@@ -35,7 +35,7 @@ nav a.active::before{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: calc(100vh - 125px);
+  min-height: calc(100vh - 125px);
 }
 .container{
   max-width: 1670px;
