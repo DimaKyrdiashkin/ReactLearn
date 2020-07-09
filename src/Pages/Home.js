@@ -19,7 +19,8 @@ const Home =()=>{
      }
     return (
     <>
-      <PromoContent headText={`GAME\nLIKE\n LIFE,\nIS\nNOT\nPREDICTIBLE`}/>
+    <PromoContent headText={`GAME\nLIKE\n LIFE,\nIS\nNOT\nPREDICTIBLE`}/>
+
     <InfoContext.Provider
         value ={{text}}
     >
