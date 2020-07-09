@@ -17,15 +17,16 @@ const Home =()=>{
              }
          }
      }
+    let text = `GAME LIKE \n LIFE, IS\nNOT PREDICTIBLE`;
     return (
-        <>
-      <PromoContent headText="GAME LIKE LIFE, IS NOT PREDICTIBLE"/>
-      <InfoContext.Provider
+    <>
+      <PromoContent headText={text}/>
+    <InfoContext.Provider
         value ={{text}}
-      >
-      <Info/>
-      </InfoContext.Provider>
-      </>
+    >
+        <Info/>
+    </InfoContext.Provider>
+</>
   );
 }
   
