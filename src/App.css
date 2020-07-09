@@ -8,7 +8,28 @@ body{
 }
 h1{
   font-size: 6.25em;
+  line-height: 110%;
   white-space: pre-line;
+}
+h2{
+  font-size: 3em;
+  line-height: 110%;
+}
+h3{
+  font-size: 2.5em;
+  line-height: 110%;
+}
+h4{
+  font-size: 1.875em;
+  line-height: 110%;
+}
+h5{
+  font-size: 1.5em;
+  line-height: 110%;
+}
+p{
+  font-size: 1em;
+  line-height: 110%;
 }
 a{
   color: #fff;
@@ -16,20 +37,31 @@ a{
 nav a{
   position: relative;
   text-transform: uppercase;
+  opacity: .5;
+  transition: .5s;
 }
+nav a.active,
+nav a:hover{
+  transition: .5s;
+  opacity: 1;
+}
+
 nav a::before{
   position: absolute;
   content: '';
   display: block;
-  width: 0;
+  width: 10px;
   transition: .5s;
   background: #fff;
   height: 2px;
-  left: 0;
-  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  opacity: 0;
 }
 nav a.active::before{
   width: 100%;
+  opacity: 1;
 }
 .promoContent{
   background: url(./assets/promoBack.jpg);
