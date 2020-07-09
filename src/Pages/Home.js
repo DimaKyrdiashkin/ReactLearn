@@ -20,9 +20,9 @@ const Home =()=>{
     let text2 = `GAME LIKE \n LIFE, IS\nNOT PREDICTIBLE`;
     return (
     <>
-      <PromoContent headText={text}/>
+      <PromoContent headText={text2}/>
     <InfoContext.Provider
-        value ={{text2}}
+        value ={{text}}
     >
         <Info/>
     </InfoContext.Provider>
