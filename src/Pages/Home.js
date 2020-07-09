@@ -23,6 +23,7 @@ const Home =()=>{
       <PromoContent headText={text2}/>
     <InfoContext.Provider
         value ={{text}}
+        
     >
         <Info/>
     </InfoContext.Provider>
