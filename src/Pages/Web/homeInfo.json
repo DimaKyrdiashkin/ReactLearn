@@ -1,0 +1,62 @@
+{
+    "first": {
+      "left": {
+        "title": "SERVICES",
+        "list": [
+          "STRATEGY",
+          "UX",
+          "VISUAL DESIGN",
+          "DEVELOPMENT"
+        ]
+      },
+      "right": {
+        "title": "Fermentum nulla bibendum pretium facilisis elit imperdiet. Sed cras dolor nisi quam at maecenas ut.",
+        "text": "lorem lorem lorem lorem"
+      }
+    },
+    "second": {
+      "title": "TECHNOLOGIES",
+      "tiles": [
+        {
+          "img": "./assets/img/technologyLogoColor/html.svg",
+          "title": "HTML 5",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+        },
+        {
+          "img": "./assets/img/technologyLogoColor/css.svg",
+          "title": "CSS 3",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+        },
+        {
+          "img": "./assets/img/technologyLogoColor/js.svg",
+          "title": "JAVA SCRIPT",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+        },
+        {
+          "img": "./assets/img/technologyLogoColor/jq.svg",
+          "title": "JQUERY",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+        },
+        {
+          "img": "./assets/img/technologyLogoColor/figma.svg",
+          "title": "FIGMA",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+        },
+        {
+          "img": "./assets/img/technologyLogoColor/ps.svg",
+          "title": "PHOTOSHOP",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+        },
+        {
+          "img": "./assets/img/technologyLogoColor/ai.svg",
+          "title": "ILLUSTRATOR",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+        },
+        {
+          "img": "./assets/img/technologyLogoColor/ae.svg",
+          "title": "AFTER EFFECTS",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+        }
+      ]
+    }
+  }

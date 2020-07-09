@@ -2,6 +2,7 @@ import React from "react";
 import './Info.css'
 import bg from './../assets/info_bg.png'
 import InfoFirst from "./InfoFirst";
+import InfoSecond from "./InfoSecond";
 
 const Info = () => {
     const style = {
@@ -11,7 +12,8 @@ const Info = () => {
     }
     return (
         <section className={"info"} style={style.info}>
-            <InfoFirst />
+            <InfoFirst/>
+            <InfoSecond/>
         </section>
     )
 }
