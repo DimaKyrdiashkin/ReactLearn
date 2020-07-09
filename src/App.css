@@ -36,6 +36,13 @@ nav a.active::before{
   background-repeat: no-repeat;
   background-position: center;
   min-height: calc(100vh - 125px);
+  display: flex;
+  justify-content: space-between;
+}
+.promoContent img{
+  max-width: 1000px;
+  width: 50%;
+  object-fit: cover;
 }
 .container{
   max-width: 1670px;
