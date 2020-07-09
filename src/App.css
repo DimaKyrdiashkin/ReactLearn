@@ -56,12 +56,13 @@ nav a::before{
   height: 2px;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -10px;
+  bottom: -40px;
   opacity: 0;
 }
 nav a.active::before{
   width: 100%;
   opacity: 1;
+  bottom: -10px;
 }
 .promoContent{
   background: url(./assets/promoBack.jpg);
