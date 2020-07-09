@@ -1,12 +1,12 @@
 import React, {createContext} from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Header from "./components/Header"
-import Web from './Pages/Web Design/Web';
-import Motion from './Pages/Motion/Motion';
-import Game from './Pages/Game/Game';
-import About from './Pages/About';
+import Web from './Pages/Web';
+import Motion from './Pages/Motion';
+import Game from './Pages/Game';
 import Sound from './Pages/Sound';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import About from './Pages/About';
 
 export const InfoContext = createContext();
 
@@ -16,11 +16,11 @@ function App() {
       <BrowserRouter>
         <Header />
         <Switch>
-          <Route path='/' component={Web} />
-          <Route path='/gallery' component={Motion} />
-          <Route path='/contact' component={Sound} />
+          <Route path='/motion' component={Motion} />
+          <Route path='/sound' component={Sound} />
+          <Route path='/game' component={Game} />
           <Route path='/about' component={About} />
-          {/* <Route path='/contact' component={Contact} /> */}
+          <Route path='/' component={Web} />
         </Switch>
       </BrowserRouter>
     </div>

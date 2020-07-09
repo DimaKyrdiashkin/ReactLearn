@@ -1,10 +1,10 @@
 import React from 'react';
 import PromoContent from '../../components/PromoContent';
-import Images from "../../assets/promoImg/promo4.png"; 
+import Images from "../../assets/promoImg/promo3.png"; 
 
-const Contact =()=> {
+const Game =()=> {
     return (
       <PromoContent headText={`RECORDING\nTHE\nSOUND OF\nSOUL`} promoSrc={Images}/>
     );
 }
-export default Contact
+export default Game
