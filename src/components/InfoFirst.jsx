@@ -36,15 +36,15 @@ const InfoFirstComponent = ({infoText}) => {
             <div className="container">
                 <div className="info_first">
                     <div className={"info_first_left"}>
-                        <h3
-                            className={"info_first_left_h2"}
+                        <p
+                            className={"info_first_left_h2 subtitle"}
                             onClick={()=>{
                                 tabl(infoText.first.title.text)
                                 tablTitle(infoText.first.title.titleH2)
                             }}
                         >
                             {infoText.first.title.title}
-                        </h3>
+                        </p>
                         <ul className={'info_first_left_ul'}>
                             {infoText.first.tiles.map((value, index) => {
                                 return <li

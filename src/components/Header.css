@@ -14,9 +14,39 @@ header {
     width: 50px;
     object-fit: contain;
 }
-
-.header a {
-    text-decoration: none;
-    /* color: #666; */
-    margin-left: 25px;
+nav{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+nav a{
+    position: relative;
+    text-transform: uppercase;
+    opacity: .5;
+    transition: .5s;
+}
+nav a.active,
+nav a:hover{
+    transition: .5s;
+    opacity: 1;
+}
+  
+nav a::before{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 10px;
+    transition: .5s;
+    background: #fff;
+    height: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -40px;
+    opacity: 0;
+}
+nav a.active::before{
+    width: 100%;
+    opacity: 1;
+    bottom: -10px;
 }

@@ -5,63 +5,60 @@
 body{
   background: #0C0C0C;
   color: #fff;
+  font-family: 'Archivo', sans-serif;
+  user-select: none;
 }
 h1{
   font-size: 6.25em;
-  line-height: 110%;
-  white-space: pre-line;
+  margin-top: 60px;
+  position: relative;
 }
 h2{
   font-size: 3em;
-  line-height: 110%;
 }
 h3{
   font-size: 2.5em;
-  line-height: 110%;
 }
 h4{
   font-size: 1.875em;
-  line-height: 110%;
 }
 h5{
   font-size: 1.5em;
-  line-height: 110%;
 }
 p{
   font-size: 1em;
+}
+h1, h2, h3, h4, h5, p, .subtitle{
   line-height: 110%;
+  white-space: pre-line;
+  height: fit-content;
 }
 a{
   color: #fff;
+  text-decoration: none;
 }
-nav a{
-  position: relative;
-  text-transform: uppercase;
-  opacity: .5;
-  transition: .5s;
+.subtitle{
+  font-size: 1.25em;
+  font-weight: bold;
 }
-nav a.active,
-nav a:hover{
-  transition: .5s;
-  opacity: 1;
-}
-
-nav a::before{
+h1::before{
   position: absolute;
   content: '';
   display: block;
-  width: 10px;
-  transition: .5s;
-  background: #fff;
+  width: 700px;
   height: 2px;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -10px;
-  opacity: 0;
+  background: #fff;
+  bottom: -20px;
+  opacity: .5;
 }
-nav a.active::before{
-  width: 100%;
-  opacity: 1;
+h1::after{
+  position: absolute;
+  content: '';
+  display: block;
+  width: 350px;
+  height: 2px;
+  background: #fff;
+  bottom: -20px;
 }
 .promoContent{
   background: url(./assets/promoBack.jpg);
@@ -70,9 +67,20 @@ nav a.active::before{
   background-position: center;
   min-height: calc(100vh - 125px);
   display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.promoContent .container{
+  max-width: 1700px !important;
+  width: 90%;
+  display: flex;
   justify-content: space-between;
 }
 .promoContent img{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
   max-width: 1000px;
   width: 50%;
   object-fit: cover;
@@ -82,5 +90,5 @@ nav a.active::before{
   margin: 0 auto;
 }
 ul{
-  list-style-type: none;
+  list-style: none;
 }
