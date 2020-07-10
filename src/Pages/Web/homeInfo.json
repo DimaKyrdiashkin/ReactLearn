@@ -1,62 +1,84 @@
 {
-    "first": {
-      "left": {
-        "title": "SERVICES",
-        "list": [
-          "STRATEGY",
-          "UX",
-          "VISUAL DESIGN",
-          "DEVELOPMENT"
-        ]
-      },
-      "right": {
-        "title": "Fermentum nulla bibendum pretium facilisis elit imperdiet. Sed cras dolor nisi quam at maecenas ut.",
-        "text": "lorem lorem lorem lorem"
-      }
+  "first": {
+    "title": {
+      "title": "SERVICES",
+      "titleH2": "Fermentum nulla bibendum pretium facilisis elit imperdiet. Sed cras dolor nisi quam at maecenas ut.",
+      "text": "lorem lorem lorem lorem"
     },
-    "second": {
-      "title": "TECHNOLOGIES",
-      "tiles": [
-        {
-          "img": "./assets/img/technologyLogoColor/html.svg",
-          "title": "HTML 5",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
-        },
-        {
-          "img": "./assets/img/technologyLogoColor/css.svg",
-          "title": "CSS 3",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
-        },
-        {
-          "img": "./assets/img/technologyLogoColor/js.svg",
-          "title": "JAVA SCRIPT",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
-        },
-        {
-          "img": "./assets/img/technologyLogoColor/jq.svg",
-          "title": "JQUERY",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
-        },
-        {
-          "img": "./assets/img/technologyLogoColor/figma.svg",
-          "title": "FIGMA",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
-        },
-        {
-          "img": "./assets/img/technologyLogoColor/ps.svg",
-          "title": "PHOTOSHOP",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
-        },
-        {
-          "img": "./assets/img/technologyLogoColor/ai.svg",
-          "title": "ILLUSTRATOR",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
-        },
-        {
-          "img": "./assets/img/technologyLogoColor/ae.svg",
-          "title": "AFTER EFFECTS",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
-        }
-      ]
-    }
+    "tiles":[
+      {
+        "title": "STRATEGY",
+        "text": "Fermentum nulla bibendum pretium facilisis elit imperdiet. Sed cras dolor nisi quam at maecenas ut."
+      },
+      {
+        "title": "UX",
+        "text": "Fermentum nulla bibendum pretium facilisis elit imperdiet. Sed cras dolor nisi quam at maecenas ut."
+      },
+      {
+        "title": "VISUAL DESIGN",
+        "text": "Fermentum nulla bibendum pretium facilisis elit imperdiet. Sed cras dolor nisi quam at maecenas ut."
+      },
+      {
+        "title": "DEVELOPMENT",
+        "text": "Fermentum nulla bibendum pretium facilisis elit imperdiet. Sed cras dolor nisi quam at maecenas ut."
+      },
+      {
+        "title": "STRATEGY",
+        "text": "Fermentum nulla bibendum pretium facilisis elit imperdiet. Sed cras dolor nisi quam at maecenas ut."
+      }
+    ]
+  },
+  "second": {
+    "title": "TECHNOLOGIES",
+    "tiles": [
+      {
+        "img": "./assets/img/technologyLogoColor/html.svg",
+        "title": "HTML 5",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
+        "color": "linear-gradient(135.07deg, rgba(228, 77, 38, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
+      },
+      {
+        "img": "./assets/img/technologyLogoColor/css.svg",
+        "title": "CSS 3",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
+        "color": "linear-gradient(135.07deg, rgba(38, 77, 228, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
+      },
+      {
+        "img": "./assets/img/technologyLogoColor/js.svg",
+        "title": "JAVA SCRIPT",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
+        "color": "linear-gradient(135.07deg, rgba(255, 247, 44, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
+      },
+      {
+        "img": "./assets/img/technologyLogoColor/jq.svg",
+        "title": "JQUERY",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
+        "color": "linear-gradient(135.07deg, rgba(33, 96, 155, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
+      },
+      {
+        "img": "./assets/img/technologyLogoColor/figma.svg",
+        "title": "FIGMA",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
+        "color": "linear-gradient(135.07deg, rgba(162, 89, 255, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
+      },
+      {
+        "img": "./assets/img/technologyLogoColor/ps.svg",
+        "title": "PHOTOSHOP",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
+        "color": "linear-gradient(135.07deg, rgba(49, 197, 240, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
+      },
+      {
+        "img": "./assets/img/technologyLogoColor/ai.svg",
+        "title": "ILLUSTRATOR",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
+        "color": "linear-gradient(135.07deg, rgba(255, 127, 24, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
+      },
+      {
+        "img": "./assets/img/technologyLogoColor/ae.svg",
+        "title": "AFTER EFFECTS",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
+        "color": "linear-gradient(135.07deg, rgba(216, 161, 255, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
+      }
+    ]
   }
+}
