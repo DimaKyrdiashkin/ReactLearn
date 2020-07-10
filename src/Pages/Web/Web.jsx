@@ -4,7 +4,7 @@ import Info from "../../components/Info";
 import {InfoContext} from "../../App";
 import Images from "../../assets/promoImg/promo1.png"; 
 
-import infoText from "./homeInfo.json"
+import infoText from "./webInfo.json"
 
 const Home =()=>{
 
