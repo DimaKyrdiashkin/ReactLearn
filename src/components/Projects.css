@@ -1,5 +1,5 @@
 .projects {
-
+    margin-bottom: 265px;
 }
 
 .projects_grid {
@@ -39,7 +39,7 @@
     cursor: pointer;
     position: absolute;
     width: 100%;
-    bottom: -100%;
+    bottom: 0;
     left: 0;
     transition: .5s;
     padding: 73px 0 36px 36px;
@@ -48,10 +48,6 @@
     text-transform: uppercase;
     background: rgba(0, 0, 0, 0.45);
     backdrop-filter: blur(2px);
-}
-
-.projects_grid li:hover .projects_grid_li_a {
-    bottom: 0;
 }
 
 .projects_a {

@@ -10,6 +10,7 @@ import About from './Pages/About';
 
 export const InfoContext = createContext();
 export const ProjectsContext = createContext();
+export const ClientContext = createContext();
 
 
 function App() {

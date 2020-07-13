@@ -113,5 +113,43 @@
         "img": "prog7.jpg"
       }
     ]
+  },
+  "client":{
+    "title": "OUR CLIENT",
+    "list": [
+      {
+        "logo": "logo1.svg",
+        "title": "NAME OF COMPANY"
+      },
+      {
+        "logo": "logo1.svg",
+        "title": "NAME OF COMPANY"
+      },
+      {
+        "logo": "logo1.svg",
+        "title": "NAME OF COMPANY"
+      },
+      {
+        "logo": "logo1.svg",
+        "title": "NAME OF COMPANY"
+      },
+      {
+        "logo": "logo1.svg",
+        "title": "NAME OF COMPANY"
+      },
+      {
+        "logo": "logo1.svg",
+        "title": "NAME OF COMPANY"
+      },{
+        "logo": "logo1.svg",
+        "title": "NAME OF COMPANY"
+      },
+      {
+        "logo": "logo1.svg",
+        "title": "NAME OF COMPANY"
+      }
+
+
+    ]
   }
 }
