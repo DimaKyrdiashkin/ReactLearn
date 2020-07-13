@@ -17,8 +17,8 @@ const InfoSecondComponent = ({infoText}) => {
     return (
         <div className="container">
             <div className="info_second">
-                <h2 className={"info_second_h2"}>{infoText.second.title}</h2>
-                <ul className={"info_second_ul"}>
+                <h2 className="emphasize">{infoText.second.title}</h2>
+                <ul className="info_second_ul">
                     {
                         infoText.second.tiles.map((value, index) =><Item value={value} key={index}/>)
                     }

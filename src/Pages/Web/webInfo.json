@@ -8,23 +8,23 @@
     "tiles":[
       {
         "title": "STRATEGY",
-        "text": "Fermentum nulla bibendum pretium facilisis elit imperdiet. Sed cras dolor nisi quam at maecenas ut."
+        "text": "test 1 Massa, ut vulputate tristique vulputate tortor ut massa curabitur. A nulla platea integer adipiscing enim. Blandit fusce feugiat \neget id nunc dolor magna. Orci facilisi ut est tristique diam lobortis dui tortor. In blandit aliquam \nadipiscing pellentesque ornare dui velit sodales ultrices."
       },
       {
         "title": "UX",
-        "text": "Fermentum nulla bibendum pretium facilisis elit imperdiet. Sed cras dolor nisi quam at maecenas ut."
+        "text": "test 2"
       },
       {
         "title": "VISUAL DESIGN",
-        "text": "Fermentum nulla bibendum pretium facilisis elit imperdiet. Sed cras dolor nisi quam at maecenas ut."
+        "text": "test 3"
       },
       {
         "title": "DEVELOPMENT",
-        "text": "Fermentum nulla bibendum pretium facilisis elit imperdiet. Sed cras dolor nisi quam at maecenas ut."
+        "text": "test 4"
       },
       {
         "title": "STRATEGY",
-        "text": "Fermentum nulla bibendum pretium facilisis elit imperdiet. Sed cras dolor nisi quam at maecenas ut."
+        "text": "test 5"
       }
     ]
   },
@@ -78,6 +78,39 @@
         "title": "AFTER EFFECTS",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
         "color": "linear-gradient(135.07deg, rgba(216, 161, 255, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
+      }
+    ]
+  },
+  "projects": {
+    "title": "COMPLATED PROJECTS",
+    "list": [
+      {
+        "title": "NAME OF PROJECT",
+        "img": "prog1.jpg"
+      },
+      {
+        "title": "NAME OF PROJECT",
+        "img": "prog2.jpg"
+      },
+      {
+        "title": "NAME OF PROJECT",
+        "img": "prog3.jpg"
+      },
+      {
+        "title": "NAME OF PROJECT",
+        "img": "prog4.jpg"
+      },
+      {
+        "title": "NAME OF PROJECT",
+        "img": "prog5.jpg"
+      },
+      {
+        "title": "NAME OF PROJECT",
+        "img": "prog6.jpg"
+      },
+      {
+        "title": "NAME OF PROJECT",
+        "img": "prog7.jpg"
       }
     ]
   }

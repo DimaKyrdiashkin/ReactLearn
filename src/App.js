@@ -9,6 +9,8 @@ import Sound from './Pages/Sound';
 import About from './Pages/About';
 
 export const InfoContext = createContext();
+export const ProjectsContext = createContext();
+
 
 function App() {
   return (

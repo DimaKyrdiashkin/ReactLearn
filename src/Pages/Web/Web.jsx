@@ -1,23 +1,29 @@
 import React from 'react';
 import PromoContent from '../../components/PromoContent';
 import Info from "../../components/Info";
-import {InfoContext} from "../../App";
-import Images from "../../assets/promoImg/promo1.png"; 
+import {InfoContext,ProjectsContext} from "../../App";
+import Images from "../../assets/promoImg/promo1.png";
 
 import infoText from "./webInfo.json"
+import Projetsc from "../../components/Projects";
 
-const Home =()=>{
+const Home = () => {
 
     return (
-    <>
-    <PromoContent headText={`GAME\nLIKE\n LIFE,\nIS\nNOT\nPREDICTIBLE`} promoSrc={Images}/>
+        <>
+            <PromoContent headText={`GAME\nLIKE\n LIFE,\nIS\nNOT\nPREDICTIBLE`} promoSrc={Images}/>
 
-    <InfoContext.Provider value ={{infoText}}>
-        <Info/>
-    </InfoContext.Provider>
-</>
-  );
+            <InfoContext.Provider value={{infoText}}>
+                <Info/>
+            </InfoContext.Provider>
+
+            <ProjectsContext.Provider value={{infoText}}>
+                <Projetsc/>
+            </ProjectsContext.Provider>
+
+        </>
+    );
 }
-  
-    
+
+
 export default Home
