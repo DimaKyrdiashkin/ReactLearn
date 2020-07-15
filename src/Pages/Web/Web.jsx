@@ -3,7 +3,6 @@ import PromoContent from '../../components/PromoContent';
 import Info from "../../components/Info";
 import {ClientContext, InfoContext, ProjectsContext} from "../../App";
 import Images from "../../assets/promoImg/promo1.png";
-
 import infoText from "./webInfo.json"
 import Projetsc from "../../components/Projects";
 import Clirnt from "../../components/Client";
@@ -20,7 +19,7 @@ const Home = () => {
                 <Projetsc/>
             </ProjectsContext.Provider>
             <ClientContext.Provider value={{infoText}}>
-                <Clirnt/>
+                    <Clirnt/>
             </ClientContext.Provider>
         </>
     );

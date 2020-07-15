@@ -65,7 +65,7 @@ h1::after{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: calc(100vh - 125px);
+  min-height: calc(100vh - 100px);
   display: flex;
   justify-content: flex-end;
   position: relative;
@@ -79,8 +79,7 @@ h1::after{
 .promoContent img{
   position: absolute;
   right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  bottom: 0;
   max-width: 1000px;
   width: 50%;
   object-fit: cover;
@@ -88,6 +87,7 @@ h1::after{
 .container{
   max-width: 1670px;
   margin: 0 auto;
+  width: 90%;
 }
 ul{
   list-style: none;
