@@ -133,7 +133,7 @@
     backdrop-filter: blur(4px);
 }
 
-.footer_form{
+.clients_form{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 20px;
@@ -141,13 +141,13 @@
     margin-bottom: 100px;
 }
 
-.footer_textarea{
+.clients_textarea{
     height: 256px;
     grid-row-start: 1;
     grid-row-end: 4;
 }
 
-.footer_textarea{
+.clients_textarea{
     background: rgba(12, 12, 12, 0.55);
     border: 1px solid #F5F5F5;
     padding: 20px;
@@ -155,7 +155,7 @@
     color: #F8F8F8;
     box-sizing: border-box;
 }
-.footer_input{
+.clients_input{
     background: rgba(12, 12, 12, 0.55);
     border: 1px solid #F5F5F5;
     color: #F8F8F8;
@@ -163,7 +163,7 @@
     padding: 24px;
     box-sizing: border-box;
 }
-.footer_submit{
+.clients_submit{
     box-sizing: border-box;
     background: #3686FF;
     box-shadow: 0px 6px 18px rgba(54, 134, 255, 0.25);
@@ -172,6 +172,7 @@
     color: #FFFFFF;
     text-transform: uppercase;
     border: none;
+    cursor: pointer;
 }
 .form_or{
     font-size: 1.52em;

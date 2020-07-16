@@ -6,12 +6,15 @@ import Images from "../../assets/promoImg/promo1.png";
 import infoText from "./webInfo.json"
 import Projetsc from "../../components/Projects";
 import Clirnt from "../../components/Client";
+import Footer from "../../components/Footer";
+import {useTranslation} from "react-i18next";
+import Header from "../../components/Header";
 
-const Home = () => {
-
+const Web = () => {
+    const { t, i18n } = useTranslation();
     return (
         <>
-            <PromoContent headText={`GAME\nLIKE\n LIFE,\nIS\nNOT\nPREDICTIBLE`} promoSrc={Images}/>
+            <PromoContent headText={t('web.promo.title')} promoSrc={Images}/>
             <InfoContext.Provider value={{infoText}}>
                 <Info/>
             </InfoContext.Provider>
@@ -21,9 +24,10 @@ const Home = () => {
             <ClientContext.Provider value={{infoText}}>
                     <Clirnt/>
             </ClientContext.Provider>
+            <Footer footer={infoText.footer}/>
         </>
     );
 }
 
 
-export default Home
+export default Web

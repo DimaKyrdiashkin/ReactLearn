@@ -6,10 +6,8 @@ const InfoFirst = () => {
     return (
         <InfoContext.Consumer>
             {value => (<InfoFirstComponent {...value}/>)}
-
         </InfoContext.Consumer>
     )
-
 }
 export default InfoFirst
 
@@ -21,7 +19,7 @@ const ListTabs = ({tablsList, activeTab, onTabChange}) => {
         setCurrentTab(newActiveIndex);
     }
     return (
-        <ul className={'info_first_left_ul'}>
+        <ul className={'info_first_ul'}>
             {tablsList.map((tabName, index) => (
                 <li className={`${index === currentTab && "info_li_activ"}`} key={tabName + index}
                     onClick={() => tabClickHandler(index)}>
@@ -38,29 +36,28 @@ const InfoFirstComponent = ({infoText}) => {
     const [text, tabl] = useState(infoText.first.tiles[0].text);
     const [title, tablTitle] = useState(infoText.first.title.titleH2);
     const [liActiv, tablLiActiv] = useState(0)
-
     return (
-        <div className={"info_bg"}>
+        <div className="info_bg">
             <div className="container">
-                <div className="info_first">
-                    <div className={"info_first_left"}>
-                        <p
-                            className={"info_first_left_h2 subtitle"}
-                            onClick={()=>{
-                                tablLiActiv(null)
+                <h3
+                    className="emphasize info_h3"
+                    onClick={() => {
+                        tablLiActiv(null)
 
-                            }}
-                        >
-                            {infoText.first.title.title}
-                        </p>
-                        <ListTabs tablsList={infoText.first.tiles} activeTitle={tablTitle} activeTab={liActiv} onTabChange={tabl}/>
-                    </div>
-                    <div className={'info_first_right'}>
-                        <h2 className={'info_first_right_h2'}>{title}</h2>
-                        <p>{text}</p>
-                    </div>
+                    }}
+                >
+                    {infoText.first.title.title}
+                </h3>
+                <div className="">
+                    <ListTabs tablsList={infoText.first.tiles} activeTitle={tablTitle} activeTab={liActiv}
+                              onTabChange={tabl}/>
+                </div>
+                <div className={'info_first_body'}>
+                    <h5 className={'info_first_body_h5'}>{title}</h5>
+                    <p>{text}</p>
                 </div>
             </div>
+
         </div>
     )
 }

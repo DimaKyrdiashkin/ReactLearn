@@ -13,7 +13,7 @@ const Info = () => {
     return (
         <section className={"info"} style={style.info}>
             <InfoFirst/>
-            <InfoSecond/>
+            {/*<InfoSecond/>*/}
         </section>
     )
 }

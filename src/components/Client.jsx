@@ -15,8 +15,6 @@ const Clirnt = () => {
 }
 
 export default Clirnt
-
-
 const ClientComponent = ({infoText}) => {
     const [left, setLeft] = useState("0");
     const style = {
@@ -110,7 +108,7 @@ const ClientComponent = ({infoText}) => {
                 />
             </div>
 
-            <Form />
+            <Form  form={infoText.form}/>
 
         </section>
     )

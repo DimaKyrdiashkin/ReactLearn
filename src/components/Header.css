@@ -14,13 +14,13 @@ header {
     width: 40px;
     object-fit: contain;
 }
-nav{
+.header nav{
     max-width: 1000px;
     display: flex;
     justify-content: space-between;
     width: 90%;
 }
-nav a{
+.header nav a{
     position: relative;
     text-transform: uppercase;
     opacity: .5;

@@ -148,8 +148,23 @@
         "logo": "logo1.svg",
         "title": "NAME OF COMPANY"
       }
-
-
     ]
+  },
+  "form": {
+    "title": "LET’S TALK",
+    "phone": "PHONE NUMBER",
+    "email": "EMAIL",
+    "button": "send",
+    "text": "or",
+    "facebook": "#",
+    "linkedin": "#",
+    "instagram": "#",
+    "telegram": "#"
+  },
+  "footer": {
+    "form": {
+      "title": "STAY IN THE KNOW",
+      "emailText":"EMAIL ADDRESS"
+    }
   }
 }
