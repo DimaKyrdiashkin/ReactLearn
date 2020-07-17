@@ -62,6 +62,7 @@ nav a.active::before{
     margin-right: 0;
 }
 .header_languages button{
+    cursor: pointer;
     background-color: transparent;
     text-transform: uppercase;
     border: none;

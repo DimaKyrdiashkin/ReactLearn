@@ -5,7 +5,7 @@ import NavBar from "./NavBar";
 
 const Footer = () => {
     const { t } = useTranslation();
-    const footer = t('web.footer', {returnObjects: true});
+    const footer = t('footer', {returnObjects: true});
     return (
         <footer className="footer">
             <div className="container">

@@ -1,15 +1,13 @@
 import React from "react";
 import "./Projects.css"
-import {useTranslation} from "react-i18next";
 
-const Projects = () => {
-    const {t} = useTranslation();
+const Projects = ({projetsc}) => {
     return (
         <section className="projects">
             <div className="container">
-                <h2 className="emphasize"> {t("web.projects.title")}</h2>
-                <ItemProjects item={t('web.projects.list', {returnObjects: true})}/>
-                <p className="projects_a">{t("web.projects.more")}</p>
+                <h2 className="emphasize"> {projetsc.title}</h2>
+                <ItemProjects item={projetsc.list}/>
+                <p className="projects_a">{projetsc.more}</p>
             </div>
         </section>
     )

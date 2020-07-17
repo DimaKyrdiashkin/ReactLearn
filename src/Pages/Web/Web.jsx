@@ -4,7 +4,7 @@ import Info from "../../components/Info";
 import {InfoContext} from "../../App";
 import Images from "../../assets/promoImg/promo1.png";
 import Projetsc from "../../components/Projects";
-import Clirnt from "../../components/Client";
+import Client from "../../components/Client";
 import {useTranslation} from "react-i18next";
 
 
@@ -16,8 +16,8 @@ const Web = () => {
             <InfoContext.Provider  >
                 <Info/>
             </InfoContext.Provider>
-            <Projetsc/>
-            <Clirnt/>
+            <Projetsc projetsc={t('web.projects', { returnObjects: true })}/>
+            <Client client={t('web.client', { returnObjects: true })} form={t('form', { returnObjects: true })}/>
         </>
     );
 }

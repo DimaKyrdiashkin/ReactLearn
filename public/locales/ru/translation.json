@@ -1,11 +1,35 @@
 {
+  "nav": {
+    "web": "веб-дизайн",
+    "motion": "дизайн движения",
+    "sound": "звуковая продукция",
+    "game": "разработка игр",
+    "about": "про нас"
+  },
+  "footer": {
+    "form": {
+      "title": "STAY IN THE KNOW",
+      "emailText":"EMAIL ADDRESS"
+    }
+  },
+  "form": {
+    "title": "LET’S TALK",
+    "phone": "Номер телефону",
+    "email": "EMAIL",
+    "button": "send",
+    "text": "or",
+    "facebook": "#",
+    "linkedin": "#",
+    "instagram": "#",
+    "telegram": "#"
+  },
   "web": {
     "promo": {
-      "title": ""
+      "title": "GAME\nLIKE\n LIFE,\nIS\nNOT\nPREDICTIBLE"
     },
     "first": {
       "title": {
-        "title": "СЕРВИСЫ",
+        "title": "SERVICES",
         "titleH2": "Fermentum nulla bibendum pretium facilisis elit imperdiet. Sed cras dolor nisi quam at maecenas ut.",
         "text": "lorem lorem lorem lorem"
       },
@@ -117,7 +141,7 @@
           "img": "prog7.jpg"
         }
       ],
-      "more": "Еще"
+      "more": "more"
     },
     "client":{
       "title": "OUR CLIENT",
@@ -154,23 +178,11 @@
           "title": "NAME OF COMPANY"
         }
       ]
-    },
-    "form": {
-      "title": "LET’S TALK",
-      "phone": "Номер телефона",
-      "email": "EMAIL",
-      "button": "send",
-      "text": "or",
-      "facebook": "#",
-      "linkedin": "#",
-      "instagram": "#",
-      "telegram": "#"
-    },
-    "footer": {
-      "form": {
-        "title": "Пребывание в знании",
-        "emailText":"EMAIL ADDRESS"
-      }
+    }
+  },
+  "motion":{
+    "promo":{
+      "title": "RECOR\nDING\nTHE\nSOUND\nOF\nSOUL"
     }
   }
 }

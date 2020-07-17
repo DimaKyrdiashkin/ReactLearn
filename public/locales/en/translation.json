@@ -6,6 +6,23 @@
     "game": "game development",
     "about": "about us"
   },
+  "footer": {
+    "form": {
+      "title": "STAY IN THE KNOW",
+      "emailText":"EMAIL ADDRESS"
+    }
+  },
+  "form": {
+    "title": "LET’S TALK",
+    "phone": "PHONE NUMBER",
+    "email": "EMAIL",
+    "button": "send",
+    "text": "or",
+    "facebook": "#",
+    "linkedin": "#",
+    "instagram": "#",
+    "telegram": "#"
+  },
   "web": {
     "promo": {
       "title": "GAME\nLIKE\n LIFE,\nIS\nNOT\nPREDICTIBLE"
@@ -161,23 +178,12 @@
           "title": "NAME OF COMPANY"
         }
       ]
-    },
-    "form": {
-      "title": "LET’S TALK",
-      "phone": "PHONE NUMBER",
-      "email": "EMAIL",
-      "button": "send",
-      "text": "or",
-      "facebook": "#",
-      "linkedin": "#",
-      "instagram": "#",
-      "telegram": "#"
-    },
-    "footer": {
-      "form": {
-        "title": "STAY IN THE KNOW",
-        "emailText":"EMAIL ADDRESS"
-      }
+    }
+
+  },
+  "motion":{
+    "promo":{
+      "title": "RECOR\nDING\nTHE\nSOUND\nOF\nSOUL"
     }
   }
 }

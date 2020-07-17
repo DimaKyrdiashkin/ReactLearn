@@ -2,11 +2,8 @@ import React, {useState} from "react";
 import "./Cilient.css"
 import bg from './../assets/info_bg.png'
 import Form from "./Forms";
-import {useTranslation} from "react-i18next";
 
-const Clirnt = () => {
-
-    const { t } = useTranslation();
+const Clirnt = ({client, form}) => {
     const [left, setLeft] = useState("0");
     const style = {
         info: {
@@ -19,7 +16,7 @@ const Clirnt = () => {
     return (
         <section className="client" style={style.info}>
             <div className="container client_container">
-                <h2 className="emphasize">{t('web.client.title')}</h2>
+                <h2 className="emphasize">{client.title}</h2>
                 <div className="client_slider"
                      id="client_slider_sl"
                      onMouseDown={(e) => {
@@ -73,7 +70,7 @@ const Clirnt = () => {
                         style={{left: left}}
 
                     >
-                        {t('web.client.list', {returnObjects: true}).map((value, index) => (
+                        {client.list.map((value, index) => (
                                 <li
                                     key={value.title + index}
                                     className="client_ul_li"
@@ -84,7 +81,6 @@ const Clirnt = () => {
                             )
                         )}
                     </ul>
-
                 </div>
                 <input
                     type="range"
@@ -99,7 +95,7 @@ const Clirnt = () => {
                 />
             </div>
 
-            <Form  form={t('web.form', {returnObjects: true})}/>
+            <Form form={form}/>
 
         </section>
     )
