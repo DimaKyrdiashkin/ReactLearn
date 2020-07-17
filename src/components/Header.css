@@ -50,3 +50,21 @@ nav a.active::before{
     opacity: 1;
     bottom: -10px;
 }
+.header_languages{
+    display: flex;
+}
+
+.header_languages li{
+    margin-right: 21px;
+}
+
+.header_languages li:last-child{
+    margin-right: 0;
+}
+.header_languages button{
+    background-color: transparent;
+    text-transform: uppercase;
+    border: none;
+    position: relative;
+    color: rgba(255, 255, 255, 0.7);
+}

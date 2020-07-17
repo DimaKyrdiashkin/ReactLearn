@@ -6,11 +6,7 @@ import {useTranslation} from "react-i18next";
 
 
 const Header = () => {
-    const { t, i18n } = useTranslation();
-    const transliteL = (lang)=>{
-        i18n.changeLanguage(lang);
-
-    }
+    const { i18n } = useTranslation();
 
     return (
         <div className='header'>
@@ -19,13 +15,13 @@ const Header = () => {
                      alt='logo'
                      className='logo'
                 />
-                <NavBar/>
+                <NavBar classUser={"header_nav"}/>
                 <ul className="header_languages">
                     <li>
-                        <a onClick={()=>transliteL("en")}>EN</a>
+                        <button onClick={()=>i18n.changeLanguage("en")}>EN</button>
                     </li>
                     <li>
-                        <a onClick={()=>transliteL("ru")}>RU</a>
+                        <button onClick={()=>i18n.changeLanguage("ru")}>RU</button>
                     </li>
                 </ul>
             </header>

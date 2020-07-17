@@ -1,9 +1,11 @@
 import React from "react";
 import "./Footer.css"
-import {NavLink} from "react-router-dom";
+import {useTranslation} from "react-i18next";
+import NavBar from "./NavBar";
 
-const Footer = ({footer}) => {
-    console.log(footer)
+const Footer = () => {
+    const { t } = useTranslation();
+    const footer = t('web.footer', {returnObjects: true});
     return (
         <footer className="footer">
             <div className="container">
@@ -30,12 +32,6 @@ const FooterForm = ({form}) => {
 
 const FooterNav = () => {
     return (
-        <nav className="footer_nav">
-            <NavLink exact to='/'>web design</NavLink>
-            <NavLink to='/motion'>motion design</NavLink>
-            <NavLink to='/sound'>sound production</NavLink>
-            <NavLink to='/game'>game development</NavLink>
-            <NavLink to='/about'>about us</NavLink>
-        </nav>
+        <NavBar classUser={"footer_nav"}/>
     )
 }

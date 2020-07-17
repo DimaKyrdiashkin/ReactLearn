@@ -20,6 +20,7 @@
     "react-slick": "^0.26.1",
     "react-three-renderer": "^3.2.4",
     "react-three-renderer-objects": "0.0.6",
+    "serve": "^11.3.2",
     "slick-carousel": "^1.8.1",
     "three": "^0.118.3"
   },

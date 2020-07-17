@@ -1,21 +1,12 @@
 import React, {useState} from "react";
-import {ClientContext} from "../App";
 import "./Cilient.css"
 import bg from './../assets/info_bg.png'
 import Form from "./Forms";
+import {useTranslation} from "react-i18next";
 
 const Clirnt = () => {
-    return (
-        <ClientContext.Consumer>
-            {value => (<ClientComponent {...value}/>)}
 
-        </ClientContext.Consumer>
-    )
-
-}
-
-export default Clirnt
-const ClientComponent = ({infoText}) => {
+    const { t } = useTranslation();
     const [left, setLeft] = useState("0");
     const style = {
         info: {
@@ -28,7 +19,7 @@ const ClientComponent = ({infoText}) => {
     return (
         <section className="client" style={style.info}>
             <div className="container client_container">
-                <h2 className="emphasize">{infoText.client.title}</h2>
+                <h2 className="emphasize">{t('web.client.title')}</h2>
                 <div className="client_slider"
                      id="client_slider_sl"
                      onMouseDown={(e) => {
@@ -82,7 +73,7 @@ const ClientComponent = ({infoText}) => {
                         style={{left: left}}
 
                     >
-                        {infoText.client.list.map((value, index) => (
+                        {t('web.client.list', {returnObjects: true}).map((value, index) => (
                                 <li
                                     key={value.title + index}
                                     className="client_ul_li"
@@ -108,8 +99,12 @@ const ClientComponent = ({infoText}) => {
                 />
             </div>
 
-            <Form  form={infoText.form}/>
+            <Form  form={t('web.form', {returnObjects: true})}/>
 
         </section>
     )
+
 }
+
+export default Clirnt
+

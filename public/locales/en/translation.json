@@ -1,4 +1,11 @@
 {
+  "nav": {
+    "web": "web design",
+    "motion": "motion design",
+    "sound": "sound production",
+    "game": "game development",
+    "about": "about us"
+  },
   "web": {
     "promo": {
       "title": "GAME\nLIKE\n LIFE,\nIS\nNOT\nPREDICTIBLE"
@@ -116,7 +123,8 @@
           "title": "NAME OF PROJECT",
           "img": "prog7.jpg"
         }
-      ]
+      ],
+      "more": "more"
     },
     "client":{
       "title": "OUR CLIENT",

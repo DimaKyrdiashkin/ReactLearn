@@ -1,32 +1,29 @@
 import React, {useState} from "react";
-import {InfoContext} from "../App";
+import {useTranslation} from "react-i18next";
 
 const InfoSecond = () => {
+    const { t } = useTranslation();
+    console.log()
     return (
-        <InfoContext.Consumer>
-            {value => (<InfoSecondComponent {...value}/>)}
-        </InfoContext.Consumer>
+
+        <div className="container">
+            <div className="info_second">
+                <h2 className="emphasize">{t("web.second.title")}</h2>
+                <ul className="info_second_ul">
+                    {
+                        t('web.second.tiles', { returnObjects: true }).map((value, index) =><Item value={value} key={index}/>)
+                    }
+                </ul>
+            </div>
+        </div>
+
     )
 
 }
 export default InfoSecond
 
 
-const InfoSecondComponent = ({infoText}) => {
 
-    return (
-        <div className="container">
-            <div className="info_second">
-                <h2 className="emphasize">{infoText.second.title}</h2>
-                <ul className="info_second_ul">
-                    {
-                        infoText.second.tiles.map((value, index) =><Item value={value} key={index}/>)
-                    }
-                </ul>
-            </div>
-        </div>
-    )
-}
 
 const Item = (props)=>{
     const [color, setColor] = useState("linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%");
