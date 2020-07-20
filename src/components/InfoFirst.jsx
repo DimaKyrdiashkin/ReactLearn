@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import {InfoContext} from "../App";
-import {useTranslation} from "react-i18next";
 
 
 const InfoFirst = () => {
@@ -33,9 +32,8 @@ const ListTabs = ({tablsList, activeTab, onTabChange}) => {
 }
 
 
-const InfoFirstComponent = () => {
-    const { t } = useTranslation();
-    const [text, tabl] = useState(t("web.first.tiles.0.text"));
+const InfoFirstComponent = (value) => {
+    const [text, tabl] = useState(value.first.tiles[0].text);
     const [liActiv, tablLiActiv] = useState(0)
     return (
         <div className="info_bg">
@@ -47,14 +45,14 @@ const InfoFirstComponent = () => {
 
                     }}
                 >
-                    {t("web.first.title.title")}
+                    {value.first.title.title}
                 </h3>
                 <div className="">
-                    <ListTabs tablsList={t('web.first.tiles', { returnObjects: true })} activeTab={liActiv}
+                    <ListTabs tablsList={value.first.tiles} activeTab={liActiv}
                               onTabChange={tabl}/>
                 </div>
                 <div className={'info_first_body'}>
-                    <h5 className={'info_first_body_h5'}>{t("web.first.title.titleH2")}</h5>
+                    <h5 className={'info_first_body_h5'}>{value.first.title.titleH2}</h5>
                     <p>{text}</p>
                 </div>
             </div>

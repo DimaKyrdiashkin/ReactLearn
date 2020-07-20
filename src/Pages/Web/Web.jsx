@@ -9,15 +9,15 @@ import {useTranslation} from "react-i18next";
 
 
 const Web = () => {
-    const { t } = useTranslation();
+    const {t} = useTranslation();
     return (
         <>
             <PromoContent headText={t('web.promo.title')} promoSrc={Images}/>
-            <InfoContext.Provider  >
+            <InfoContext.Provider value={t('web.info', {returnObjects: true})}>
                 <Info/>
             </InfoContext.Provider>
-            <Projetsc projetsc={t('web.projects', { returnObjects: true })}/>
-            <Client client={t('web.client', { returnObjects: true })} form={t('form', { returnObjects: true })}/>
+            <Projetsc projetsc={t('web.projects', {returnObjects: true})}/>
+            <Client client={t('web.client', {returnObjects: true})} form={t('form', {returnObjects: true})}/>
         </>
     );
 }

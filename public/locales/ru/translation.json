@@ -1,10 +1,10 @@
 {
   "nav": {
-    "web": "веб-дизайн",
-    "motion": "дизайн движения",
-    "sound": "звуковая продукция",
-    "game": "разработка игр",
-    "about": "про нас"
+    "web": "web design",
+    "motion": "motion design",
+    "sound": "sound production",
+    "game": "game development",
+    "about": "about us"
   },
   "footer": {
     "form": {
@@ -14,7 +14,7 @@
   },
   "form": {
     "title": "LET’S TALK",
-    "phone": "Номер телефону",
+    "phone": "PHONE NUMBER",
     "email": "EMAIL",
     "button": "send",
     "text": "or",
@@ -26,6 +26,166 @@
   "web": {
     "promo": {
       "title": "GAME\nLIKE\n LIFE,\nIS\nNOT\nPREDICTIBLE"
+    },
+    "info": {
+      "first": {
+        "title": {
+          "title": "SERVICES",
+          "titleH2": "Fermentum nulla bibendum pretium facilisis elit imperdiet. Sed cras dolor nisi quam at maecenas ut.",
+          "text": "lorem lorem lorem lorem"
+        },
+        "tiles":[
+          {
+            "title": "STRATEGY",
+            "text": "test 1 Massa, ut vulputate tristique vulputate tortor ut massa curabitur. A nulla platea integer adipiscing enim. Blandit fusce feugiat \neget id nunc dolor magna. Orci facilisi ut est tristique diam lobortis dui tortor. In blandit aliquam \nadipiscing pellentesque ornare dui velit sodales ultrices."
+          },
+          {
+            "title": "UX",
+            "text": "test 2"
+          },
+          {
+            "title": "VISUAL DESIGN",
+            "text": "test 3"
+          },
+          {
+            "title": "DEVELOPMENT",
+            "text": "test 4"
+          },
+          {
+            "title": "STRATEGY",
+            "text": "test 5"
+          }
+        ]
+      },
+      "second": {
+        "title": "TECHNOLOGIES",
+        "tiles": [
+          {
+            "img": "./assets/img/technologyLogoColor/html.svg",
+            "title": "HTML 5",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
+            "color": "linear-gradient(135.07deg, rgba(228, 77, 38, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
+          },
+          {
+            "img": "./assets/img/technologyLogoColor/css.svg",
+            "title": "CSS 3",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
+            "color": "linear-gradient(135.07deg, rgba(38, 77, 228, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
+          },
+          {
+            "img": "./assets/img/technologyLogoColor/js.svg",
+            "title": "JAVA SCRIPT",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
+            "color": "linear-gradient(135.07deg, rgba(255, 247, 44, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
+          },
+          {
+            "img": "./assets/img/technologyLogoColor/jq.svg",
+            "title": "JQUERY",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
+            "color": "linear-gradient(135.07deg, rgba(33, 96, 155, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
+          },
+          {
+            "img": "./assets/img/technologyLogoColor/figma.svg",
+            "title": "FIGMA",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
+            "color": "linear-gradient(135.07deg, rgba(162, 89, 255, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
+          },
+          {
+            "img": "./assets/img/technologyLogoColor/ps.svg",
+            "title": "PHOTOSHOP",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
+            "color": "linear-gradient(135.07deg, rgba(49, 197, 240, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
+          },
+          {
+            "img": "./assets/img/technologyLogoColor/ai.svg",
+            "title": "ILLUSTRATOR",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
+            "color": "linear-gradient(135.07deg, rgba(255, 127, 24, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
+          },
+          {
+            "img": "./assets/img/technologyLogoColor/ae.svg",
+            "title": "AFTER EFFECTS",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
+            "color": "linear-gradient(135.07deg, rgba(216, 161, 255, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
+          }
+        ]
+      }
+    },
+    "projects": {
+      "title": "COMPLATED PROJECTS",
+      "list": [
+        {
+          "title": "NAME OF PROJECT",
+          "img": "prog1.jpg"
+        },
+        {
+          "title": "NAME OF PROJECT",
+          "img": "prog2.jpg"
+        },
+        {
+          "title": "NAME OF PROJECT",
+          "img": "prog3.jpg"
+        },
+        {
+          "title": "NAME OF PROJECT",
+          "img": "prog4.jpg"
+        },
+        {
+          "title": "NAME OF PROJECT",
+          "img": "prog5.jpg"
+        },
+        {
+          "title": "NAME OF PROJECT",
+          "img": "prog6.jpg"
+        },
+        {
+          "title": "NAME OF PROJECT",
+          "img": "prog7.jpg"
+        }
+      ],
+      "more": "more"
+    },
+    "client":{
+      "title": "OUR CLIENT",
+      "list": [
+        {
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        },
+        {
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        },
+        {
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        },
+        {
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        },
+        {
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        },
+        {
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        },{
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        },
+        {
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        }
+      ]
+    }
+
+  },
+  "motion":{
+    "promo":{
+      "title": "RECOR\nDING\nTHE\nSOUND\nOF\nSOUL"
     },
     "first": {
       "title": {
@@ -108,81 +268,6 @@
           "color": "linear-gradient(135.07deg, rgba(216, 161, 255, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
         }
       ]
-    },
-    "projects": {
-      "title": "COMPLATED PROJECTS",
-      "list": [
-        {
-          "title": "NAME OF PROJECT",
-          "img": "prog1.jpg"
-        },
-        {
-          "title": "NAME OF PROJECT",
-          "img": "prog2.jpg"
-        },
-        {
-          "title": "NAME OF PROJECT",
-          "img": "prog3.jpg"
-        },
-        {
-          "title": "NAME OF PROJECT",
-          "img": "prog4.jpg"
-        },
-        {
-          "title": "NAME OF PROJECT",
-          "img": "prog5.jpg"
-        },
-        {
-          "title": "NAME OF PROJECT",
-          "img": "prog6.jpg"
-        },
-        {
-          "title": "NAME OF PROJECT",
-          "img": "prog7.jpg"
-        }
-      ],
-      "more": "more"
-    },
-    "client":{
-      "title": "OUR CLIENT",
-      "list": [
-        {
-          "logo": "logo1.svg",
-          "title": "NAME OF COMPANY"
-        },
-        {
-          "logo": "logo1.svg",
-          "title": "NAME OF COMPANY"
-        },
-        {
-          "logo": "logo1.svg",
-          "title": "NAME OF COMPANY"
-        },
-        {
-          "logo": "logo1.svg",
-          "title": "NAME OF COMPANY"
-        },
-        {
-          "logo": "logo1.svg",
-          "title": "NAME OF COMPANY"
-        },
-        {
-          "logo": "logo1.svg",
-          "title": "NAME OF COMPANY"
-        },{
-          "logo": "logo1.svg",
-          "title": "NAME OF COMPANY"
-        },
-        {
-          "logo": "logo1.svg",
-          "title": "NAME OF COMPANY"
-        }
-      ]
-    }
-  },
-  "motion":{
-    "promo":{
-      "title": "RECOR\nDING\nTHE\nSOUND\nOF\nSOUL"
     }
   }
 }

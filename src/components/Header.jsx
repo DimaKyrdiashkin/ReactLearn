@@ -6,7 +6,7 @@ import {useTranslation} from "react-i18next";
 
 
 const Header = () => {
-    const { i18n } = useTranslation();
+    const {i18n} = useTranslation();
 
     return (
         <div className='header'>
@@ -18,10 +18,10 @@ const Header = () => {
                 <NavBar classUser={"header_nav"}/>
                 <ul className="header_languages">
                     <li>
-                        <button onClick={()=>i18n.changeLanguage("en")}>EN</button>
+                        <button onClick={() => i18n.changeLanguage("en")}>EN</button>
                     </li>
                     <li>
-                        <button onClick={()=>i18n.changeLanguage("ru")}>RU</button>
+                        <button onClick={() => i18n.changeLanguage("ru")}>RU</button>
                     </li>
                 </ul>
             </header>
