@@ -12,11 +12,11 @@ const Motion = () => {
     return (
         <>
             <PromoContent headText={t('motion.promo.title')} promoSrc={Images}/>
-            <InfoContext.Provider>
+            <InfoContext.Provider value={t('motion.info', {returnObjects: true})}>
                 <Info/>
             </InfoContext.Provider>
-            {/*<Projetsc projetsc={t('motion.projects', { returnObjects: true })}/>*/}
-            {/*<Client client={t('motion.client', { returnObjects: true })} form={t('form', { returnObjects: true })}/>*/}
+            <Projetsc projetsc={t('motion.projects', {returnObjects: true})}/>
+            <Client client={t('motion.client', {returnObjects: true})} form={t('form', {returnObjects: true})}/>
         </>
 
     );
