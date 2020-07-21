@@ -16,7 +16,7 @@ export const InfoContext = createContext();
 function App() {
     return (
         <>
-            <Suspense fallback={(<div>Leading ~~~</div>)}>
+            <Suspense fallback={(<div>Loading ~~~</div>)}>
                 <BrowserRouter>
                     <Header />
                     <Switch>

@@ -88,7 +88,7 @@ const Clirnt = ({client, form}) => {
                     onMouseMove={(e) => {
                         const widthLiser = document.getElementById('client_ul_slider').offsetWidth;
                         const widthBlockSl = document.getElementById('client_slider_sl').offsetWidth;
-                        setLeft(`-${Math.floor(widthLiser / 100 * e.target.value) - widthBlockSl}px`)
+                        setLeft(`-${Math.floor((widthLiser - widthBlockSl) / 100 * e.target.value)}px`)
                     }}
                 />
             </div>
