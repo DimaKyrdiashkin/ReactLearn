@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
 }
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}
 body{
   background: #0C0C0C;
   color: #fff;
