@@ -6,6 +6,7 @@ import Images from "../../assets/promoImg/promo1.png";
 import Projetsc from "../../components/Projects";
 import Client from "../../components/Client";
 import {useTranslation} from "react-i18next";
+import Project from "../../components/Project";
 
 
 const Web = () => {
@@ -14,7 +15,7 @@ const Web = () => {
     const {t} = useTranslation();
     if(projectActiv){
         return(
-            <Project projectId={projectId} />
+            <Project projectId={projectId} form={t('form', {returnObjects: true})} list={t('web.projects.list', {returnObjects: true})}/>
         )
     }
     return (
@@ -23,7 +24,7 @@ const Web = () => {
             <InfoContext.Provider value={t('web.info', {returnObjects: true})}>
                 <Info/>
             </InfoContext.Provider>
-            <Projetsc projetsc={t('web.projects', {returnObjects: true})} projectId={setProjectId}/>
+            <Projetsc projetsc={t('web.projects', {returnObjects: true})} projectId={setProjectId} blockProjectActiv={setProjectActiv}/>
             <Client client={t('web.client', {returnObjects: true})} form={t('form', {returnObjects: true})}/>
         </>
     );
@@ -31,13 +32,4 @@ const Web = () => {
 export default Web
 
 
-const Project = ({projectId})=>{
-    return(
-        <section>
-            <div className="container">
 
-            </div>
-        </section>
-    )
-
-}

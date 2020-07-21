@@ -117,7 +117,8 @@
         {
           "id": "1",
           "title": "NAME OF PROJECT",
-          "img": "prog1.jpg"
+          "img": "prog1.jpg",
+          "slider": []
         },
         {
           "id": "2",
