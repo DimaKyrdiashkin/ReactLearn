@@ -53,7 +53,7 @@ const InfoFirstComponent = (value) => {
                 </div>
                 <div className={'info_first_body'}>
                     <h5 className={'info_first_body_h5'}>{value.first.title.titleH2}</h5>
-                    <p>{text}</p>
+                    <p >{text}</p>
                 </div>
             </div>
 

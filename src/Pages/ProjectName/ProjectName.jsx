@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import bg from "../../assets/info_bg.png";
-import Form from "../../components/Forms";
 
 const ProjectName = ({project}) => {
     const [left, setLeft] = useState("0");
@@ -16,11 +15,10 @@ const ProjectName = ({project}) => {
         <>
             <section className="client" style={style.info}>
                 <div className="container client_container">
-                    <h2 className="emphasize">{client.title}</h2>
+                    <h2 className="emphasize">{project.title}</h2>
                     <div className="client_slider"
                          id="client_slider_sl"
                          onMouseDown={(e) => {
-
                              isDown = true;
                              offset = [
                                  document.querySelector("#client_ul_slider").offsetLeft - e.clientX
@@ -68,9 +66,8 @@ const ProjectName = ({project}) => {
                         <ul className="client_ul"
                             id="client_ul_slider"
                             style={{left: left}}
-
                         >
-                            {client.list.map((value, index) => (
+                            {project.list.map((value, index) => (
                                     <li
                                         key={value.title + index}
                                         className="client_ul_li"
@@ -90,12 +87,12 @@ const ProjectName = ({project}) => {
                         onMouseMove={(e) => {
                             const widthLiser = document.getElementById('client_ul_slider').offsetWidth;
                             const widthBlockSl = document.getElementById('client_slider_sl').offsetWidth;
-                            setLeft(`-${Math.floor(widthLiser / 100 * e.target.value) - widthBlockSl}px`)
+                            setLeft(`-${Math.floor((widthLiser - widthBlockSl) / 100 * e.target.value)}px`)
                         }}
                     />
                 </div>
 
-                <Form form={form}/>
+                {/*<Form form={form}/>*/}
 
             </section>
         </>

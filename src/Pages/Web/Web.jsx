@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import PromoContent from '../../components/PromoContent';
 import Info from "../../components/Info";
 import {InfoContext} from "../../App";
@@ -9,18 +9,35 @@ import {useTranslation} from "react-i18next";
 
 
 const Web = () => {
+    const [projectActiv, setProjectActiv] = useState(false);
+    const [projectId, setProjectId] = useState(null)
     const {t} = useTranslation();
+    if(projectActiv){
+        return(
+            <Project projectId={projectId} />
+        )
+    }
     return (
         <>
             <PromoContent headText={t('web.promo.title')} promoSrc={Images}/>
             <InfoContext.Provider value={t('web.info', {returnObjects: true})}>
                 <Info/>
             </InfoContext.Provider>
-            <Projetsc projetsc={t('web.projects', {returnObjects: true})}/>
+            <Projetsc projetsc={t('web.projects', {returnObjects: true})} projectId={setProjectId}/>
             <Client client={t('web.client', {returnObjects: true})} form={t('form', {returnObjects: true})}/>
         </>
     );
 }
-
-
 export default Web
+
+
+const Project = ({projectId})=>{
+    return(
+        <section>
+            <div className="container">
+
+            </div>
+        </section>
+    )
+
+}

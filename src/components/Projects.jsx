@@ -13,13 +13,14 @@ const Projects = ({projetsc}) => {
     )
 }
 export default Projects
-const ItemProjects = ({item}) => {
+const ItemProjects = ({item }) => {
+
     return (
         <ul className="projects_grid">
             {item.map((value, index) => (
                     <li key={value.title + index} style={{backgroundImage: `url(./assets/img/projects/${value.img})`}}
                         className="projects_grid_li">
-                        <p className='projects_grid_li_a'>{value.title}</p>
+                        <p className='projects_grid_li_a' onClick={()=>{}}>{value.title}</p>
                     </li>
                 )
             )}

@@ -86,7 +86,7 @@
 }
 
 .info_second_li img {
-    max-width: 60px;
+    max-height: 70px;
     transition: .5s;
     filter: grayscale(1);
     margin-bottom: 117px;

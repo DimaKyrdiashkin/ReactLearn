@@ -8,6 +8,7 @@ import Game from './Pages/Game';
 import Sound from './Pages/Sound';
 import About from './Pages/About';
 import Header from "./components/Header";
+import ProjectName from "./Pages/ProjectName/ProjectName";
 import Footer from "./components/Footer";
 
 export const InfoContext = createContext();
@@ -18,15 +19,16 @@ function App() {
         <>
             <Suspense fallback={(<div>Loading ~~~</div>)}>
                 <BrowserRouter>
-                    <Header />
+                    <Header/>
                     <Switch>
                         <Route exact path='/' component={Web}/>
                         <Route path='/motion' component={Motion}/>
                         <Route path='/sound' component={Sound}/>
                         <Route path='/game' component={Game}/>
                         <Route path='/about' component={About}/>
+                        <Route path="/project" component={ProjectName}/>
                     </Switch>
-                    <Footer />
+                    <Footer/>
                 </BrowserRouter>
             </Suspense>
         </>
