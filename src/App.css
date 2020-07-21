@@ -2,6 +2,15 @@
   margin: 0;
   padding: 0;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff14;
+}
 body{
   background: #0C0C0C;
   color: #fff;
@@ -93,28 +102,22 @@ h1::after{
 ul{
   list-style: none;
 }
-
-
 .emphasize {
   margin-bottom: 90px;
   padding-bottom: 12px;
   position: relative;
 }
-
 .emphasize:before, .emphasize:after {
   position: absolute;
   content: "";
   bottom: 0;
   width: 50%;
   height: 2px;
-
 }
-
 .emphasize:before {
   left: 0;
   background: #F7F7F7;
 }
-
 .emphasize:after {
   left: 50%;
   background: rgba(247, 247, 247, 0.5);
