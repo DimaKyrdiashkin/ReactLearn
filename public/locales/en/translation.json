@@ -115,37 +115,37 @@
       "title": "COMPLATED PROJECTS",
       "list": [
         {
-          "url": "",
+          "id": "1",
           "title": "NAME OF PROJECT",
           "img": "prog1.jpg"
         },
         {
-          "url": "",
+          "id": "2",
           "title": "NAME OF PROJECT",
           "img": "prog2.jpg"
         },
         {
-          "url": "",
+          "id": "3",
           "title": "NAME OF PROJECT",
           "img": "prog3.jpg"
         },
         {
-          "url": "",
+          "id": "4",
           "title": "NAME OF PROJECT",
           "img": "prog4.jpg"
         },
         {
-          "url": "",
+          "id": "5",
           "title": "NAME OF PROJECT",
           "img": "prog5.jpg"
         },
         {
-          "url": "",
+          "id": "6",
           "title": "NAME OF PROJECT",
           "img": "prog6.jpg"
         },
         {
-          "url": "",
+          "id": "7",
           "title": "NAME OF PROJECT",
           "img": "prog7.jpg"
         }

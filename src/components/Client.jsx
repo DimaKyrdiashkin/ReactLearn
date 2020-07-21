@@ -20,7 +20,6 @@ const Clirnt = ({client, form}) => {
                 <div className="client_slider"
                      id="client_slider_sl"
                      onMouseDown={(e) => {
-
                          isDown = true;
                          offset = [
                              document.querySelector("#client_ul_slider").offsetLeft - e.clientX
@@ -68,7 +67,6 @@ const Clirnt = ({client, form}) => {
                     <ul className="client_ul"
                         id="client_ul_slider"
                         style={{left: left}}
-
                     >
                         {client.list.map((value, index) => (
                                 <li
