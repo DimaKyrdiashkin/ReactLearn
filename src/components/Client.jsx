@@ -1,9 +1,9 @@
 import React, {useState} from "react";
-import "./Cilient.css"
+import "./Client.css"
 import bg from './../assets/info_bg.png'
 import Form from "./Forms";
 
-const Clirnt = ({client, form}) => {
+const Client = ({client, form}) => {
     const [left, setLeft] = useState("0");
     const style = {
         info: {
@@ -20,7 +20,6 @@ const Clirnt = ({client, form}) => {
                 <div className="client_slider"
                      id="client_slider_sl"
                      onMouseDown={(e) => {
-
                          isDown = true;
                          offset = [
                              document.querySelector("#client_ul_slider").offsetLeft - e.clientX
@@ -62,13 +61,11 @@ const Clirnt = ({client, form}) => {
                              document.querySelector("#client_ul_slider").style.left = 0;
                              document.getElementById('sliderInputClient').value = 0;
                          }
-
                      }}
                 >
                     <ul className="client_ul"
                         id="client_ul_slider"
                         style={{left: left}}
-
                     >
                         {client.list.map((value, index) => (
                                 <li
@@ -94,13 +91,9 @@ const Clirnt = ({client, form}) => {
                     }}
                 />
             </div>
-
             <Form form={form}/>
-
         </section>
     )
-
 }
-
-export default Clirnt
+export default Client
 
