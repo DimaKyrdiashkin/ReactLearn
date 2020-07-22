@@ -33,8 +33,8 @@ const InfoSecondComponent = (value) => {
 const Item = (props) => {
     const {t} = useTranslation();
     const [color, setColor] = useState("linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%");
-    const progect =t('technologies', {returnObjects: true});
-    for (const i of progect){
+    const project =t('technologies', {returnObjects: true});
+    for (const i of project){
         if(i.id === props.value){
             return (
                 <li

@@ -23,133 +23,7 @@
     "instagram": "#",
     "telegram": "#"
   },
-  "web": {
-    "promo": {
-      "title": "GAME\nLIKE\n LIFE,\nIS\nNOT\nPREDICTIBLE"
-    },
-    "info": {
-      "first": {
-        "title": {
-          "title": "SERVICES",
-          "titleH2": "Fermentum nulla bibendum pretium facilisis elit imperdiet. Sed cras dolor nisi quam at maecenas ut.",
-          "text": "lorem lorem lorem lorem"
-        },
-        "tiles":[
-          {
-            "title": "STRATEGY",
-            "text": "test 1 Massa, ut vulputate tristique vulputate tortor ut massa curabitur. A nulla platea integer adipiscing enim. Blandit fusce feugiat \neget id nunc dolor magna. Orci facilisi ut est tristique diam lobortis dui tortor. In blandit aliquam \nadipiscing pellentesque ornare dui velit sodales ultrices."
-          },
-          {
-            "title": "UX",
-            "text": "test 2"
-          },
-          {
-            "title": "VISUAL DESIGN",
-            "text": "test 3"
-          },
-          {
-            "title": "DEVELOPMENT",
-            "text": "test 4"
-          },
-          {
-            "title": "STRATEGY",
-            "text": "test 5"
-          }
-        ]
-      },
-      "second": {
-        "title": "TECHNOLOGIES",
-        "technologies": ["html","css","js","jq","fig","ps","ae","ai"]
-      }
-    },
-    "projects": {
-      "title": "COMPLATED PROJECTS",
-      "list": [
-        {
-          "id": "1",
-          "id_category": "web",
-          "title": "NAME OF PROJECT",
-          "img": "prog1.jpg",
-          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
-        },
-        {
-          "id": "2",
-          "title": "NAME OF PROJECT",
-          "img": "prog2.jpg",
-          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
-        },
-        {
-          "id": "3",
-          "title": "NAME OF PROJECT",
-          "img": "prog3.jpg",
-          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
-        },
-        {
-          "id": "4",
-          "title": "NAME OF PROJECT",
-          "img": "prog4.jpg",
-          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
-        },
-        {
-          "id": "5",
-          "title": "NAME OF PROJECT",
-          "img": "prog5.jpg",
-          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
-        },
-        {
-          "id": "6",
-          "title": "NAME OF PROJECT",
-          "img": "prog6.jpg",
-          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
-        },
-        {
-          "id": "7",
-          "title": "NAME OF PROJECT",
-          "img": "prog7.jpg",
-          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
-        }
-      ],
-      "more": "more"
-    },
-    "client":{
-      "title": "OUR CLIENT",
-      "list": [
-        {
-          "logo": "logo1.svg",
-          "title": "NAME OF COMPANY"
-        },
-        {
-          "logo": "logo1.svg",
-          "title": "NAME OF COMPANY"
-        },
-        {
-          "logo": "logo1.svg",
-          "title": "NAME OF COMPANY"
-        },
-        {
-          "logo": "logo1.svg",
-          "title": "NAME OF COMPANY"
-        },
-        {
-          "logo": "logo1.svg",
-          "title": "NAME OF COMPANY"
-        },
-        {
-          "logo": "logo1.svg",
-          "title": "NAME OF COMPANY"
-        },{
-          "logo": "logo1.svg",
-          "title": "NAME OF COMPANY"
-        },
-        {
-          "logo": "logo1.svg",
-          "title": "NAME OF COMPANY"
-        }
-      ]
-    }
-
-  },
-  "category": [
+  "categoryProject": [
     {
       "id": "web_del",
       "title": "web design"
@@ -296,9 +170,222 @@
       "titleImg":"prog1.jpg",
       "technologies": ["js", "html"],
       "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+    },
+    {
+      "id": "project_2",
+      "idCategory":"web_del",
+      "title": "project 1",
+      "titleImg":"prog1.jpg",
+      "technologies": ["js", "html"],
+      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+    },
+    {
+      "id": "project_3",
+      "idCategory":"web_del",
+      "title": "project 1",
+      "titleImg":"prog1.jpg",
+      "technologies": ["js", "html"],
+      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+    },
+    {
+      "id": "project_4",
+      "idCategory":"web_del",
+      "title": "project 1",
+      "titleImg":"prog1.jpg",
+      "technologies": ["js", "html"],
+      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+    },
+    {
+      "id": "project_5",
+      "idCategory":"web_del",
+      "title": "project 1",
+      "titleImg":"prog1.jpg",
+      "technologies": ["js", "html"],
+      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+    },
+    {
+      "id": "project_6",
+      "idCategory":"web_del",
+      "title": "project 1",
+      "titleImg":"prog1.jpg",
+      "technologies": ["js", "html"],
+      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+    },
+    {
+      "id": "project_7",
+      "idCategory":"web_del",
+      "title": "project 1",
+      "titleImg":"prog1.jpg",
+      "technologies": ["js", "html"],
+      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+    },
+    {
+      "id": "project_1",
+      "idCategory":"motion",
+      "title": "project 1",
+      "titleImg":"prog1.jpg",
+      "technologies": ["js", "html"],
+      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+    },
+    {
+      "id": "project_2",
+      "idCategory":"motion",
+      "title": "project 1",
+      "titleImg":"prog1.jpg",
+      "technologies": ["js", "html"],
+      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+    },
+    {
+      "id": "project_3",
+      "idCategory":"motion",
+      "title": "project 1",
+      "titleImg":"prog1.jpg",
+      "technologies": ["js", "html"],
+      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+    },
+    {
+      "id": "project_4",
+      "idCategory":"motion",
+      "title": "project 1",
+      "titleImg":"prog1.jpg",
+      "technologies": ["js", "html"],
+      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+    },
+    {
+      "id": "project_5",
+      "idCategory":"motion",
+      "title": "project 1",
+      "titleImg":"prog1.jpg",
+      "technologies": ["js", "html"],
+      "slider": ["proj_1.jpg", "proj_1.jpg", "proj_1.jpg", "proj_1.jpg"]
     }
   ],
+  "web": {
+    "promo": {
+      "title": "GAME\nLIKE\n LIFE,\nIS\nNOT\nPREDICTIBLE"
+    },
+    "info": {
+      "first": {
+        "title": {
+          "title": "SERVICES",
+          "titleH2": "Fermentum nulla bibendum pretium facilisis elit imperdiet. Sed cras dolor nisi quam at maecenas ut.",
+          "text": "lorem lorem lorem lorem"
+        },
+        "tiles":[
+          {
+            "title": "STRATEGY",
+            "text": "test 1 Massa, ut vulputate tristique vulputate tortor ut massa curabitur. A nulla platea integer adipiscing enim. Blandit fusce feugiat \neget id nunc dolor magna. Orci facilisi ut est tristique diam lobortis dui tortor. In blandit aliquam \nadipiscing pellentesque ornare dui velit sodales ultrices."
+          },
+          {
+            "title": "UX",
+            "text": "test 2"
+          },
+          {
+            "title": "VISUAL DESIGN",
+            "text": "test 3"
+          },
+          {
+            "title": "DEVELOPMENT",
+            "text": "test 4"
+          },
+          {
+            "title": "STRATEGY",
+            "text": "test 5"
+          }
+        ]
+      },
+      "second": {
+        "title": "TECHNOLOGIES",
+        "technologies": ["html","css","js","jq","fig","ps","ae","ai"]
+      }
+    },
+    "projects": {
+      "title": "COMPLATED PROJECTS",
+      "list": [
+        {
+          "id": "1",
+          "id_category": "web",
+          "title": "NAME OF PROJECT",
+          "img": "prog1.jpg",
+          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+        },
+        {
+          "id": "2",
+          "title": "NAME OF PROJECT",
+          "img": "prog2.jpg",
+          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+        },
+        {
+          "id": "3",
+          "title": "NAME OF PROJECT",
+          "img": "prog3.jpg",
+          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+        },
+        {
+          "id": "4",
+          "title": "NAME OF PROJECT",
+          "img": "prog4.jpg",
+          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+        },
+        {
+          "id": "5",
+          "title": "NAME OF PROJECT",
+          "img": "prog5.jpg",
+          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+        },
+        {
+          "id": "6",
+          "title": "NAME OF PROJECT",
+          "img": "prog6.jpg",
+          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+        },
+        {
+          "id": "7",
+          "title": "NAME OF PROJECT",
+          "img": "prog7.jpg",
+          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+        }
+      ],
+      "more": "more"
+    },
+    "client":{
+      "title": "OUR CLIENT",
+      "list": [
+        {
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        },
+        {
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        },
+        {
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        },
+        {
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        },
+        {
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        },
+        {
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        },{
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        },
+        {
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        }
+      ]
+    }
 
+  },
   "motion":{
     "promo":{
       "title": "RECOR\nDING\nTHE\nSOUND\nOF\nSOUL"
