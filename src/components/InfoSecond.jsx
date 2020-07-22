@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import {InfoContext} from "../App";
+import {useTranslation} from "react-i18next";
 
 const InfoSecond = () => {
 
@@ -20,7 +21,7 @@ const InfoSecondComponent = (value) => {
                 <h2 className="emphasize">{value.second.title}</h2>
                 <ul className="info_second_ul">
                     {
-                        value.second.tiles.map((value, index) => <Item value={value} key={index}/>)
+                        value.second.technologies.map((value, index) => <Item value={value} key={index}/>)
                     }
                 </ul>
             </div>
@@ -30,21 +31,26 @@ const InfoSecondComponent = (value) => {
 
 
 const Item = (props) => {
+    const {t} = useTranslation();
     const [color, setColor] = useState("linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%");
-    return (
-        <li
-            onMouseOver={() => setColor(props.value.color)}
-            onMouseOut={() => setColor("linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%")}
-            className={"info_second_li"}
-            style={{background: color}}
-        >
-            <img
-                src={props.value.img}
-                alt={props.value.title}
-            />
-            <h5>{props.value.title}</h5>
-            <p>{props.value.text}</p>
-        </li>
-    )
-
+    const progect =t('technologies', {returnObjects: true});
+    for (const i of progect){
+        if(i.id === props.value){
+            return (
+                <li
+                    onMouseOver={() => setColor(i.bgColor)}
+                    onMouseOut={() => setColor("linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%")}
+                    className="info_second_li"
+                    style={{background: color}}
+                >
+                    <img
+                        src={`./assets/img/technologyLogoColor/${i.img}`}
+                        alt={i.title}
+                    />
+                    <h5>{i.title}</h5>
+                    <p>{i.text}</p>
+                </li>
+            )
+        }
+    }
 }

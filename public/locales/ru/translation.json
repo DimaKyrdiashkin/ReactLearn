@@ -1,6 +1,6 @@
 {
   "nav": {
-    "web": "веб design",
+    "web": "web design",
     "motion": "motion design",
     "sound": "sound production",
     "game": "game development",
@@ -59,54 +59,306 @@
       },
       "second": {
         "title": "TECHNOLOGIES",
+        "technologies": ["html","css","js","jq","fig","ps","ae","ai"]
+      }
+    },
+    "projects": {
+      "title": "COMPLATED PROJECTS",
+      "list": [
+        {
+          "id": "1",
+          "id_category": "web",
+          "title": "NAME OF PROJECT",
+          "img": "prog1.jpg",
+          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+        },
+        {
+          "id": "2",
+          "title": "NAME OF PROJECT",
+          "img": "prog2.jpg",
+          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+        },
+        {
+          "id": "3",
+          "title": "NAME OF PROJECT",
+          "img": "prog3.jpg",
+          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+        },
+        {
+          "id": "4",
+          "title": "NAME OF PROJECT",
+          "img": "prog4.jpg",
+          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+        },
+        {
+          "id": "5",
+          "title": "NAME OF PROJECT",
+          "img": "prog5.jpg",
+          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+        },
+        {
+          "id": "6",
+          "title": "NAME OF PROJECT",
+          "img": "prog6.jpg",
+          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+        },
+        {
+          "id": "7",
+          "title": "NAME OF PROJECT",
+          "img": "prog7.jpg",
+          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+        }
+      ],
+      "more": "more"
+    },
+    "client":{
+      "title": "OUR CLIENT",
+      "list": [
+        {
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        },
+        {
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        },
+        {
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        },
+        {
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        },
+        {
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        },
+        {
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        },{
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        },
+        {
+          "logo": "logo1.svg",
+          "title": "NAME OF COMPANY"
+        }
+      ]
+    }
+
+  },
+  "category": [
+    {
+      "id": "web_del",
+      "title": "web design"
+    },
+    {
+      "id": "motion",
+      "title": "motion design"
+    },
+    {
+      "id": "sound",
+      "title": "sound production"
+    },
+    {
+      "id": "game",
+      "title": "game development"
+    }
+  ],
+  "technologies": [
+    {
+      "id": "html",
+      "title": "html 5",
+      "bgColor": "linear-gradient(135.07deg, rgba(228, 77, 38, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)",
+      "img": "html.svg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+    },
+    {
+      "id": "css",
+      "title": "css 3",
+      "bgColor": "linear-gradient(135.07deg, rgba(38, 77, 228, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)",
+      "img": "css.svg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+    },
+    {
+      "id": "js",
+      "title": "java script",
+      "bgColor": "linear-gradient(135.07deg, rgba(255, 247, 44, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)",
+      "img": "js.svg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+    },
+    {
+      "id": "jq",
+      "title": "jquery",
+      "bgColor": "linear-gradient(135.07deg, rgba(33, 96, 155, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)",
+      "img": "jq.svg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+    },
+    {
+      "id": "fig",
+      "title": "figma",
+      "bgColor": "linear-gradient(135.07deg, rgba(162, 89, 255, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)",
+      "img": "fig.svg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+    },
+    {
+      "id": "ps",
+      "title": "photoshop",
+      "bgColor": "linear-gradient(135.07deg, rgba(49, 197, 240, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)",
+      "img": "ps.svg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+    },
+    {
+      "id": "ai",
+      "title": "photoshop",
+      "bgColor": "linear-gradient(135.07deg, rgba(255, 127, 24, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)",
+      "img": "ai.svg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+    },
+    {
+      "id": "au",
+      "title": "audition",
+      "bgColor": "linear-gradient(135.07deg, rgba(0, 228, 187, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)",
+      "img": "ai.svg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+    },
+    {
+      "id": "cinema",
+      "title": "cinema 4d",
+      "bgColor": "linear-gradient(135.07deg, rgba(95, 115, 236, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)",
+      "img": "cinema.svg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+    },
+    {
+      "id": "ae",
+      "title": "after effects",
+      "bgColor": "linear-gradient(135.07deg, rgba(216, 161, 255, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)",
+      "img": "ae.svg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+    },
+    {
+      "id": "max",
+      "title": "3d max",
+      "bgColor": "linear-gradient(135.07deg, rgba(14, 124, 123, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)",
+      "img": "max.svg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+    },
+    {
+      "id": "blender",
+      "title": "blender",
+      "bgColor": "linear-gradient(135.07deg, rgba(255, 112, 33, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)",
+      "img": "blender.svg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+    },
+    {
+      "id": "unity",
+      "title": "unity",
+      "bgColor": "linear-gradient(135.07deg, rgba(255, 255, 255, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)",
+      "img": "unity.svg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+    },
+    {
+      "id": "c",
+      "title": "c#",
+      "bgColor": "linear-gradient(135.07deg, #9A4993 0%, rgba(154, 73, 147, 0.3) 0.01%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)",
+      "img": "c.svg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+    },
+    {
+      "id": "fl",
+      "title": "fl studio",
+      "bgColor": "linear-gradient(135.07deg, rgba(74, 174, 82, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)",
+      "img": "fl.svg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+    },
+    {
+      "id": "cubase",
+      "title": "cubase",
+      "bgColor": "linear-gradient(135.07deg, rgba(198, 0, 41, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)",
+      "img": "cubase.svg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+    },
+    {
+      "id": "logic",
+      "title": "logic pro",
+      "bgColor": "linear-gradient(135.07deg, rgba(255, 255, 255, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)",
+      "img": "logic.svg",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
+    }
+  ],
+  "project": [
+    {
+      "id": "project_1",
+      "idCategory":"web_del",
+      "title": "project 1",
+      "titleImg":"prog1.jpg",
+      "technologies": ["js", "html"],
+      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+    }
+  ],
+
+  "motion":{
+    "promo":{
+      "title": "RECOR\nDING\nTHE\nSOUND\nOF\nSOUL"
+    },
+    "info": {
+      "first": {
+        "title": {
+          "title": "SERVICES",
+          "titleH2": "Fermentum nulla bibendum pretium facilisis elit imperdiet. Sed cras dolor nisi quam at maecenas ut.",
+          "text": "lorem lorem lorem lorem"
+        },
+        "tiles":[
+          {
+            "title": "STRATEGY",
+            "text": "test 1 Massa, ut vulputate tristique vulputate tortor ut massa curabitur. A nulla platea integer adipiscing enim. Blandit fusce feugiat \neget id nunc dolor magna. Orci facilisi ut est tristique diam lobortis dui tortor. In blandit aliquam \nadipiscing pellentesque ornare dui velit sodales ultrices."
+          },
+          {
+            "title": "UX",
+            "text": "test 2"
+          },
+          {
+            "title": "VISUAL DESIGN",
+            "text": "test 3"
+          },
+          {
+            "title": "DEVELOPMENT",
+            "text": "test 4"
+          },
+          {
+            "title": "STRATEGY",
+            "text": "test 5"
+          }
+        ]
+      },
+      "second": {
+        "title": "TECHNOLOGIES",
         "tiles": [
           {
-            "img": "./assets/img/technologyLogoColor/html.svg",
-            "title": "HTML 5",
+            "img": "./assets/img/technologyLogoColor/cinema.svg",
+            "title": "CINEMA 4D",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
-            "color": "linear-gradient(135.07deg, rgba(228, 77, 38, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
-          },
-          {
-            "img": "./assets/img/technologyLogoColor/css.svg",
-            "title": "CSS 3",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
-            "color": "linear-gradient(135.07deg, rgba(38, 77, 228, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
-          },
-          {
-            "img": "./assets/img/technologyLogoColor/js.svg",
-            "title": "JAVA SCRIPT",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
-            "color": "linear-gradient(135.07deg, rgba(255, 247, 44, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
-          },
-          {
-            "img": "./assets/img/technologyLogoColor/jq.svg",
-            "title": "JQUERY",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
-            "color": "linear-gradient(135.07deg, rgba(33, 96, 155, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
-          },
-          {
-            "img": "./assets/img/technologyLogoColor/figma.svg",
-            "title": "FIGMA",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
-            "color": "linear-gradient(135.07deg, rgba(162, 89, 255, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
-          },
-          {
-            "img": "./assets/img/technologyLogoColor/ps.svg",
-            "title": "PHOTOSHOP",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
-            "color": "linear-gradient(135.07deg, rgba(49, 197, 240, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
+            "color": "linear-gradient(135.07deg, rgba(95, 115, 236, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
           },
           {
             "img": "./assets/img/technologyLogoColor/ai.svg",
-            "title": "ILLUSTRATOR",
+            "title": "AFTER EFFECTS",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
             "color": "linear-gradient(135.07deg, rgba(255, 127, 24, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
           },
           {
-            "img": "./assets/img/technologyLogoColor/ae.svg",
-            "title": "AFTER EFFECTS",
+            "img": "./assets/img/technologyLogoColor/3dMax.svg",
+            "title": "3D MAX",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
-            "color": "linear-gradient(135.07deg, rgba(216, 161, 255, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
+            "color": "linear-gradient(135.07deg, rgba(14, 124, 123, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
+          },
+          {
+            "img": "./assets/img/technologyLogoColor/blender.svg",
+            "title": "BLENDER",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
+            "color": "linear-gradient(135.07deg, rgba(255, 112, 33, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
           }
         ]
       }
@@ -115,30 +367,37 @@
       "title": "COMPLATED PROJECTS",
       "list": [
         {
+          "url": "",
           "title": "NAME OF PROJECT",
           "img": "prog1.jpg"
         },
         {
+          "url": "",
           "title": "NAME OF PROJECT",
           "img": "prog2.jpg"
         },
         {
+          "url": "",
           "title": "NAME OF PROJECT",
           "img": "prog3.jpg"
         },
         {
+          "url": "",
           "title": "NAME OF PROJECT",
           "img": "prog4.jpg"
         },
         {
+          "url": "",
           "title": "NAME OF PROJECT",
           "img": "prog5.jpg"
         },
         {
+          "url": "",
           "title": "NAME OF PROJECT",
           "img": "prog6.jpg"
         },
         {
+          "url": "",
           "title": "NAME OF PROJECT",
           "img": "prog7.jpg"
         }
@@ -182,92 +441,5 @@
       ]
     }
 
-  },
-  "motion":{
-    "promo":{
-      "title": "RECOR\nDING\nTHE\nSOUND\nOF\nSOUL"
-    },
-    "first": {
-      "title": {
-        "title": "SERVICES",
-        "titleH2": "Fermentum nulla bibendum pretium facilisis elit imperdiet. Sed cras dolor nisi quam at maecenas ut.",
-        "text": "lorem lorem lorem lorem"
-      },
-      "tiles":[
-        {
-          "title": "STRATEGY",
-          "text": "test 1 Massa, ut vulputate tristique vulputate tortor ut massa curabitur. A nulla platea integer adipiscing enim. Blandit fusce feugiat \neget id nunc dolor magna. Orci facilisi ut est tristique diam lobortis dui tortor. In blandit aliquam \nadipiscing pellentesque ornare dui velit sodales ultrices."
-        },
-        {
-          "title": "UX",
-          "text": "test 2"
-        },
-        {
-          "title": "VISUAL DESIGN",
-          "text": "test 3"
-        },
-        {
-          "title": "DEVELOPMENT",
-          "text": "test 4"
-        },
-        {
-          "title": "STRATEGY",
-          "text": "test 5"
-        }
-      ]
-    },
-    "second": {
-      "title": "TECHNOLOGIES",
-      "tiles": [
-        {
-          "img": "./assets/img/technologyLogoColor/html.svg",
-          "title": "HTML 5",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
-          "color": "linear-gradient(135.07deg, rgba(228, 77, 38, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
-        },
-        {
-          "img": "./assets/img/technologyLogoColor/css.svg",
-          "title": "CSS 3",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
-          "color": "linear-gradient(135.07deg, rgba(38, 77, 228, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
-        },
-        {
-          "img": "./assets/img/technologyLogoColor/js.svg",
-          "title": "JAVA SCRIPT",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
-          "color": "linear-gradient(135.07deg, rgba(255, 247, 44, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
-        },
-        {
-          "img": "./assets/img/technologyLogoColor/jq.svg",
-          "title": "JQUERY",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
-          "color": "linear-gradient(135.07deg, rgba(33, 96, 155, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
-        },
-        {
-          "img": "./assets/img/technologyLogoColor/figma.svg",
-          "title": "FIGMA",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
-          "color": "linear-gradient(135.07deg, rgba(162, 89, 255, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
-        },
-        {
-          "img": "./assets/img/technologyLogoColor/ps.svg",
-          "title": "PHOTOSHOP",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
-          "color": "linear-gradient(135.07deg, rgba(49, 197, 240, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
-        },
-        {
-          "img": "./assets/img/technologyLogoColor/ai.svg",
-          "title": "ILLUSTRATOR",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
-          "color": "linear-gradient(135.07deg, rgba(255, 127, 24, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
-        },
-        {
-          "img": "./assets/img/technologyLogoColor/ae.svg",
-          "title": "AFTER EFFECTS",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
-          "color": "linear-gradient(135.07deg, rgba(216, 161, 255, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
-        }
-      ]
-    }
   }
 }

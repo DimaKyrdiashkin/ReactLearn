@@ -13,9 +13,10 @@ const Web = () => {
     const [projectActiv, setProjectActiv] = useState(false);
     const [projectId, setProjectId] = useState(null)
     const {t} = useTranslation();
-    if(projectActiv){
-        return(
-            <Project projectId={projectId} form={t('form', {returnObjects: true})} list={t('web.projects.list', {returnObjects: true})}/>
+    if (projectActiv) {
+        return (
+            <Project projectId={projectId} form={t('form', {returnObjects: true})}
+                     list={t('web.projects.list', {returnObjects: true})}/>
         )
     }
     return (
@@ -24,7 +25,8 @@ const Web = () => {
             <InfoContext.Provider value={t('web.info', {returnObjects: true})}>
                 <Info/>
             </InfoContext.Provider>
-            <Projetsc projetsc={t('web.projects', {returnObjects: true})} projectId={setProjectId} blockProjectActiv={setProjectActiv}/>
+            <Projetsc projetsc={t('web.projects', {returnObjects: true})} projectId={setProjectId}
+                      blockProjectActiv={setProjectActiv}/>
             <Client client={t('web.client', {returnObjects: true})} form={t('form', {returnObjects: true})}/>
         </>
     );

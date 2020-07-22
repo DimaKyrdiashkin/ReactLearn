@@ -85,6 +85,7 @@
     margin-bottom: 117px;
 }
 .info_second_li h5 {
+    text-transform: uppercase;
     margin-bottom: 45px;
 }
 .info_second_li:hover img {

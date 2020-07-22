@@ -22,11 +22,12 @@ function App() {
                     <Header/>
                     <Switch>
                         <Route exact path='/' component={Web}/>
-                        <Route path='/motion' component={Motion}/>
-                        <Route path='/sound' component={Sound}/>
-                        <Route path='/game' component={Game}/>
-                        <Route path='/about' component={About}/>
-                        <Route path="/project" component={ProjectName}/>
+                        <Route exact path='/motion' component={Motion}/>
+                        <Route path='/motion/:number' component={ProjectName}/>
+                        <Route exact path='/sound' component={Sound}/>
+                        <Route exact path='/game' component={Game}/>
+                        <Route exact path='/about' component={About}/>
+                        <Route exact path="*/project" render={ProjectName}/>
                     </Switch>
                     <Footer/>
                 </BrowserRouter>
