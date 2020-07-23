@@ -301,51 +301,7 @@
     },
     "projects": {
       "title": "COMPLATED PROJECTS",
-      "list": [
-        {
-          "id": "1",
-          "id_category": "web",
-          "title": "NAME OF PROJECT",
-          "img": "prog1.jpg",
-          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
-        },
-        {
-          "id": "2",
-          "title": "NAME OF PROJECT",
-          "img": "prog2.jpg",
-          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
-        },
-        {
-          "id": "3",
-          "title": "NAME OF PROJECT",
-          "img": "prog3.jpg",
-          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
-        },
-        {
-          "id": "4",
-          "title": "NAME OF PROJECT",
-          "img": "prog4.jpg",
-          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
-        },
-        {
-          "id": "5",
-          "title": "NAME OF PROJECT",
-          "img": "prog5.jpg",
-          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
-        },
-        {
-          "id": "6",
-          "title": "NAME OF PROJECT",
-          "img": "prog6.jpg",
-          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
-        },
-        {
-          "id": "7",
-          "title": "NAME OF PROJECT",
-          "img": "prog7.jpg",
-          "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
-        }
-      ],
+      "list": ["next"],
       "more": "more"
     },
     "client":{

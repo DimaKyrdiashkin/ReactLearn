@@ -3,7 +3,6 @@ import {InfoContext} from "../App";
 import {useTranslation} from "react-i18next";
 
 const InfoSecond = () => {
-
     return (
         <InfoContext.Consumer>
             {value => (<InfoSecondComponent {...value}/>)}
@@ -12,8 +11,6 @@ const InfoSecond = () => {
 
 }
 export default InfoSecond
-
-
 const InfoSecondComponent = (value) => {
     return (
         <div className="container">

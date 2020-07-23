@@ -7,7 +7,6 @@ const Project = ({projectId, form, list}) => {
     let item;
     list.map((value) => {
         if (projectId === value['id']) {
-
             item = value
         }
     })
