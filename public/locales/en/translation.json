@@ -184,6 +184,20 @@
     },
     {
       "id": "project_1",
+      "idCategory":"motion",
+      "title": "project 1",
+      "titleImg":"prog1.jpg",
+      "text": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?"
+      ],
+      "technologies": ["js", "html","jq","blender"],
+      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"],
+      "date": "2020.12.05"
+    },
+    {
+      "id": "project_1",
       "idCategory":"web_del",
       "title": "project 1",
       "titleImg":"prog1.jpg",

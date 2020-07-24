@@ -1,4 +1,5 @@
 .project{
+    padding-top: 40px;
     overflow-x: hidden;
     background-size: cover;
     background-repeat: no-repeat;
@@ -38,7 +39,6 @@
     height: 2px;
     cursor: pointer;
     background: rgba(247, 247, 247, 0.5);
-
 }
 .project input[type=range]::-webkit-slider-thumb {
     height: 32px;
@@ -49,7 +49,6 @@
     transform: rotate(-45deg) translate(50%, -19%);
     cursor: pointer;
     -webkit-appearance: none;
-
 }
 .project input[type=range]:focus::-webkit-slider-runnable-track {
     background: rgba(247, 247, 247, 0.5);
@@ -103,24 +102,34 @@
 .project input[type=range]:focus::-ms-fill-upper {
     background: rgba(247, 247, 247, 0.5);
 }
+.project_text{
+    max-width: 720px;
+    margin:  0 auto 34px;
+}
+.project_body{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+}
 .project_body_text_title{
     margin-bottom: 55px;
 }
-.project_body{
-    display: flex;
-}
+
 .project_body_title{
     margin-bottom: 20px;
 }
 .project_body_text{
+    max-width: 544px;
     margin-right: 20px;
+}
+.project_body_text_t p{
+    margin-bottom: 10px;
 }
 .project_body_technology_items{
     display: flex;
     flex-wrap: wrap;
     max-width: 150px;
     justify-content: space-between;
-
 }
 .project_body_technology_items li{
     max-width: 44px;
@@ -128,4 +137,22 @@
 }
 .project_body_technology_items li img{
     width: 100%;
+}
+.project_back{
+    text-transform: uppercase;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    margin-bottom: 110px;
+    width: fit-content;
+    position: relative;
+}
+.project_back:after{
+    content: "";
+    cursor: pointer;
+    background-color: #ffffff;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }

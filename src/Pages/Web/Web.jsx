@@ -8,7 +8,7 @@ import Client from "../../components/Client";
 import {useTranslation} from "react-i18next";
 
 
-const Web = () => {
+const Web = (props) => {
     const {t} = useTranslation();
     return (
         <>

@@ -6,9 +6,9 @@ import bg from "../../assets/info_bg.png";
 import Form from "../../components/Forms";
 
 const ProjectName = () => {
+    window.scrollTo(0, 0)
     const {t} = useTranslation();
     const id = useParams();
-
     const [left, setLeft] = useState("0");
     const style = {
         bg: {
@@ -109,25 +109,29 @@ const ProjectName = () => {
                     }}
                 />
 
+                <div className="project_text">
+                    <p className="project_body_text_title"><b>{res.title}</b></p>
+                    <div className="project_body">
+                        <div className="project_body_text">
+                            <p className="project_body_title"><b>{t("strProject.description")}</b></p>
+                            <TextProject text={res.text}/>
+                        </div>
+                        <div className="project_body_technology">
+                            <p className="project_body_title"><b>{t("strProject.technology")}</b></p>
+                            <ul className="project_body_technology_items">
+                                {
+                                    res.technologies.map((value, index) => <TechnologyProject item={value}
+                                                                                              key={index}/>)
+                                }
+                            </ul>
 
-                <p className="project_body_text_title"><b>{res.title}</b></p>
-                <div className="project_body">
-                    <div className="project_body_text">
-                        <p className="project_body_title"><b>{t("strProject.description")}</b></p>
-                        <TextProject text={res.text}/>
+                        </div>
                     </div>
-                    <div className="project_body_technology">
-                        <p className="project_body_title"><b>{t("strProject.technology")}</b></p>
-                        <ul className="project_body_technology_items">
-                            {
-                                res.technologies.map((value, index) => <TechnologyProject item={value} key={index}/>)
-                            }
-                        </ul>
-                    </div>
+                    <time className="project_text_time" dateTime={res.date}>{res.date}</time>
                 </div>
-
-
+                <p className="project_back"><b>{t("strProject.back")}</b></p>
             </div>
+
             <Form form={t('form', {returnObjects: true})}/>
 
         </section>
@@ -136,7 +140,7 @@ const ProjectName = () => {
 export default ProjectName
 const TextProject = ({text}) => {
     return (
-        <div>
+        <div className="project_body_text_t">
             {text.map((value, index) => <p key={index}>{value}</p>)}
         </div>
     )

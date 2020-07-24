@@ -9,6 +9,7 @@ import Sound from './Pages/Sound';
 import About from './Pages/About';
 import Header from "./components/Header";
 import ProjectName from "./Pages/ProjectName/ProjectName";
+import Projects from "./Pages/Projects";
 import Footer from "./components/Footer";
 
 export const InfoContext = createContext();
@@ -21,12 +22,16 @@ function App() {
                 <BrowserRouter>
                     <Header/>
                     <Switch>
-                        <Route exact path='/' component={Web}/>
+                        <Route exact path='/'  component={Web} />
                         <Route exact path='/motion' component={Motion}/>
                         <Route exact path='/project/:id' component={ProjectName}/>
                         <Route exact path='/sound' component={Sound}/>
                         <Route exact path='/game' component={Game}/>
                         <Route exact path='/about' component={About}/>
+                        <Route exact path='/projects' render={() => <Projects ids={"web_del"}/> } />
+                        <Route exact path='/motion/projects' render={() => <Projects ids={"motion"}/> } />
+                        <Route exact path='/sound/projects' render={() => <Projects ids={"sound"}/> } />
+                        <Route exact path='/game/projects' render={() => <Projects ids={"game"}/> } />
                     </Switch>
                     <Footer/>
                 </BrowserRouter>

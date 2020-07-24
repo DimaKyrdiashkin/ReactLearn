@@ -34,7 +34,7 @@ const ItemProjects = ({category}) => {
                         className="projects_grid_li"
                         style={{backgroundImage: `url(./assets/img/projects/${value.idCategory}/${value.id}/${value.titleImg})`}}
                     >
-                        <NavLink to={`/project/${value.id}`} className="projects_grid_li_a">{value.title}</NavLink>
+                        <NavLink to={`/project/${value.id}`}  className="projects_grid_li_a" >{value.title}</NavLink>
                     </li>
                 )
             )}
