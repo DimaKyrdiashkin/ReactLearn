@@ -8,6 +8,7 @@ import Game from './Pages/Game';
 import Sound from './Pages/Sound';
 import About from './Pages/About';
 import Header from "./components/Header";
+import ProjectName from "./Pages/ProjectName/ProjectName";
 import Footer from "./components/Footer";
 
 export const InfoContext = createContext();
@@ -22,6 +23,7 @@ function App() {
                     <Switch>
                         <Route exact path='/' component={Web}/>
                         <Route exact path='/motion' component={Motion}/>
+                        <Route exact path='/project/:id' component={ProjectName}/>
                         <Route exact path='/sound' component={Sound}/>
                         <Route exact path='/game' component={Game}/>
                         <Route exact path='/about' component={About}/>

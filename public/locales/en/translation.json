@@ -162,70 +162,123 @@
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
     }
   ],
+  "strProject": {
+    "description": "Description",
+    "technology": "Technology",
+    "back": "back"
+  },
   "project": [
     {
       "id": "project_1",
       "idCategory":"web_del",
       "title": "project 1",
       "titleImg":"prog1.jpg",
-      "technologies": ["js", "html"],
-      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+      "text": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?"
+      ],
+      "technologies": ["js", "html","jq","blender"],
+      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"],
+      "date": "2020.12.05"
     },
     {
       "id": "project_1",
       "idCategory":"web_del",
       "title": "project 1",
       "titleImg":"prog1.jpg",
+      "text": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?"
+      ],
       "technologies": ["js", "html"],
-      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"],
+      "date": "2020.12.05"
     },
     {
-      "id": "project_1",
+      "id": "project_2",
       "idCategory":"web_del",
       "title": "project 1",
       "titleImg":"prog1.jpg",
+      "text": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?"
+      ],
       "technologies": ["js", "html"],
-      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"],
+      "date": "2020.12.05"
     },
     {
-      "id": "project_1",
+      "id": "project_3",
       "idCategory":"web_del",
       "title": "project 1",
       "titleImg":"prog1.jpg",
+      "text": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?"
+      ],
       "technologies": ["js", "html"],
-      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"],
+      "date": "2020.12.05"
     },
     {
-      "id": "project_1",
+      "id": "project_4",
       "idCategory":"web_del",
       "title": "project 1",
       "titleImg":"prog1.jpg",
+      "text": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?"
+      ],
       "technologies": ["js", "html"],
-      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"],
+      "date": "2020.12.05"
     },
     {
-      "id": "project_1",
+      "id": "project_5",
       "idCategory":"web_del",
       "title": "project 1",
       "titleImg":"prog1.jpg",
+      "text": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?"
+      ],
       "technologies": ["js", "html"],
-      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"],
+      "date": "2020.12.05"
     },
     {
-      "id": "project_1",
+      "id": "project_6",
       "idCategory":"web_del",
       "title": "project 1",
       "titleImg":"prog1.jpg",
+      "text": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?"
+      ],
       "technologies": ["js", "html"],
-      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"],
+      "date": "2020.12.05"
     },
     {
-      "id": "project_1",
+      "id": "project_7",
       "idCategory":"web_del",
       "title": "project 1",
       "titleImg":"prog1.jpg",
+      "text": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nulla, placeat. Debitis facilis inventore, magnam maiores provident quam reprehenderit voluptate. Blanditiis eaque error in nobis officiis quasi qui similique, vitae?"
+      ],
       "technologies": ["js", "html"],
-      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"]
+      "slider": ["proj_1.jpg","proj_1.jpg","proj_1.jpg","proj_1.jpg"],
+      "date": "2020.12.05"
     }
 
   ],
@@ -311,9 +364,6 @@
     }
 
   },
-
-
-
   "motion":{
     "promo":{
       "title": "RECOR\nDING\nTHE\nSOUND\nOF\nSOUL"
