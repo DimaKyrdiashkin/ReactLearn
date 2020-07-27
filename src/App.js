@@ -13,7 +13,7 @@ import Projects from "./Pages/Projects";
 import Footer from "./components/Footer";
 
 export const InfoContext = createContext();
-
+export const ProjectAdd = createContext()
 
 function App() {
     return (
@@ -24,14 +24,14 @@ function App() {
                     <Switch>
                         <Route exact path='/'  component={Web} />
                         <Route exact path='/motion' component={Motion}/>
-                        <Route exact path='/project/:id' component={ProjectName}/>
                         <Route exact path='/sound' component={Sound}/>
                         <Route exact path='/game' component={Game}/>
                         <Route exact path='/about' component={About}/>
-                        <Route exact path='/projects' render={() => <Projects ids={"web_del"}/> } />
-                        <Route exact path='/motion/projects' render={() => <Projects ids={"motion"}/> } />
-                        <Route exact path='/sound/projects' render={() => <Projects ids={"sound"}/> } />
-                        <Route exact path='/game/projects' render={() => <Projects ids={"game"}/> } />
+                        <Route exact path='/project/:id' render={() => <ProjectName /> }/>
+                        <Route exact path='/projects' render={() => <Projects ids={"web_del"} linkHome={'/'}/> } />
+                        <Route exact path='/motion/projects' render={() => <Projects ids={"motion"} linkHome={'/motion'}/> } />
+                        <Route exact path='/sound/projects' render={() => <Projects ids={"sound"} linkHome={'/sound'}/> } />
+                        <Route exact path='/game/projects' render={() => <Projects ids={"game"} linkHome={'/game'}/> } />
                     </Switch>
                     <Footer/>
                 </BrowserRouter>

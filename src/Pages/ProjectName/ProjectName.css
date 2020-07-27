@@ -139,6 +139,7 @@
     width: 100%;
 }
 .project_back{
+    display: block;
     text-transform: uppercase;
     box-sizing: border-box;
     padding-bottom: 10px;

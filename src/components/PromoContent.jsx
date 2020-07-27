@@ -1,6 +1,7 @@
 import React from 'react';
 
 const PromoContent =(props)=>{
+    window.scroll(0,0);
     return (
         <div className='promoContent'>
             <div className='container'>

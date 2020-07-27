@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import bg from "../assets/info_bg.png";
-import "./Project.css"
 import Form from "./Forms";
 
 const Project = ({projectId, form, list}) => {

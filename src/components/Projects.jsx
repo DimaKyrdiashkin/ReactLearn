@@ -3,13 +3,13 @@ import "./Projects.css"
 import {useTranslation} from "react-i18next";
 import {NavLink} from "react-router-dom";
 
-const Projects = ({projetsc}) => {
+const Projects = ({projetsc, projectButton}) => {
     return (
         <section className="projects">
             <div className="container">
                 <h2 className="emphasize">{projetsc.title}</h2>
                 <ItemProjects category={projetsc.categories}/>
-                <p className="projects_a">{projetsc.more}</p>
+                <NavLink to={projectButton} className="projects_a">{projetsc.more}</NavLink>
             </div>
         </section>
     )

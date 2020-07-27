@@ -26,19 +26,23 @@
   "category": [
     {
       "id": "web_del",
-      "title": "web design"
+      "title": "web design",
+      "url": "/projects"
     },
     {
       "id": "motion",
-      "title": "motion design"
+      "title": "motion design",
+      "url": "/motion/projects"
     },
     {
       "id": "sound",
-      "title": "sound production"
+      "title": "sound production",
+      "url": "/sound/projects"
     },
     {
       "id": "game",
-      "title": "game development"
+      "title": "game development",
+      "url": "/game/projects"
     }
   ],
   "technologies": [

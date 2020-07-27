@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import './ProjectName.css'
 import {useTranslation} from "react-i18next";
-import {useParams} from 'react-router-dom'
+import {NavLink, useParams} from 'react-router-dom'
 import bg from "../../assets/info_bg.png";
 import Form from "../../components/Forms";
 
@@ -34,7 +34,13 @@ const ProjectName = () => {
                 </div>
             </section>
         )
-
+    }
+    let linkBack ;
+    for(const value of t('category', {returnObjects: true})){
+        if(value.id === res.idCategory){
+            console.log(true)
+            linkBack = value.url;
+        }
     }
     return (
         <section style={style.bg} className="project">
@@ -129,7 +135,7 @@ const ProjectName = () => {
                     </div>
                     <time className="project_text_time" dateTime={res.date}>{res.date}</time>
                 </div>
-                <p className="project_back"><b>{t("strProject.back")}</b></p>
+                <NavLink className="project_back" to={linkBack}><b>{t("strProject.back")}</b></NavLink>
             </div>
 
             <Form form={t('form', {returnObjects: true})}/>
