@@ -23,6 +23,14 @@
     "instagram": "#",
     "telegram": "#"
   },
+  "strProject": {
+    "description": "Description",
+    "technology": "Technology",
+    "back": "back"
+  },
+  "projects": {
+    "back":"BACK TO MAIN PAGE"
+  },
   "category": [
     {
       "id": "web_del",
@@ -166,11 +174,7 @@
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt."
     }
   ],
-  "strProject": {
-    "description": "Description",
-    "technology": "Technology",
-    "back": "back"
-  },
+
   "project": [
     {
       "id": "project_1",
@@ -187,7 +191,7 @@
       "date": "2020.12.05"
     },
     {
-      "id": "project_1",
+      "id": "project_123123",
       "idCategory":"motion",
       "title": "project 1",
       "titleImg":"prog1.jpg",
@@ -300,6 +304,7 @@
     }
 
   ],
+
   "web": {
     "promo": {
       "title": "GAME\nLIKE\n LIFE,\nIS\nNOT\nPREDICTIBLE"
@@ -383,8 +388,8 @@
 
   },
   "motion":{
-    "promo":{
-      "title": "RECOR\nDING\nTHE\nSOUND\nOF\nSOUL"
+    "promo": {
+      "title": "GAME\nLIKE\n LIFE,\nIS\nNOT\nPREDICTIBLE"
     },
     "info": {
       "first": {
@@ -418,73 +423,12 @@
       },
       "second": {
         "title": "TECHNOLOGIES",
-        "tiles": [
-          {
-            "img": "./assets/img/technologyLogoColor/cinema.svg",
-            "title": "CINEMA 4D",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
-            "color": "linear-gradient(135.07deg, rgba(95, 115, 236, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
-          },
-          {
-            "img": "./assets/img/technologyLogoColor/ai.svg",
-            "title": "AFTER EFFECTS",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
-            "color": "linear-gradient(135.07deg, rgba(255, 127, 24, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
-          },
-          {
-            "img": "./assets/img/technologyLogoColor/3dMax.svg",
-            "title": "3D MAX",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
-            "color": "linear-gradient(135.07deg, rgba(14, 124, 123, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
-          },
-          {
-            "img": "./assets/img/technologyLogoColor/blender.svg",
-            "title": "BLENDER",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque sed purus cras risus eget amet interdum faucibus tincidunt.",
-            "color": "linear-gradient(135.07deg, rgba(255, 112, 33, 0.3) 0%, rgba(12, 12, 12, 0.1) 100%), linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%)"
-          }
-        ]
+        "technologies": ["html","css","js","jq","fig","ps","ae","ai"]
       }
     },
     "projects": {
       "title": "COMPLATED PROJECTS",
-      "list": [
-        {
-          "url": "",
-          "title": "NAME OF PROJECT",
-          "img": "prog1.jpg"
-        },
-        {
-          "url": "",
-          "title": "NAME OF PROJECT",
-          "img": "prog2.jpg"
-        },
-        {
-          "url": "",
-          "title": "NAME OF PROJECT",
-          "img": "prog3.jpg"
-        },
-        {
-          "url": "",
-          "title": "NAME OF PROJECT",
-          "img": "prog4.jpg"
-        },
-        {
-          "url": "",
-          "title": "NAME OF PROJECT",
-          "img": "prog5.jpg"
-        },
-        {
-          "url": "",
-          "title": "NAME OF PROJECT",
-          "img": "prog6.jpg"
-        },
-        {
-          "url": "",
-          "title": "NAME OF PROJECT",
-          "img": "prog7.jpg"
-        }
-      ],
+      "categories": "motion",
       "more": "more"
     },
     "client":{

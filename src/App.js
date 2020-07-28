@@ -13,7 +13,6 @@ import Projects from "./Pages/Projects";
 import Footer from "./components/Footer";
 
 export const InfoContext = createContext();
-export const ProjectAdd = createContext()
 
 function App() {
     return (

@@ -30,18 +30,25 @@ const InfoSecondComponent = (value) => {
 const Item = (props) => {
     const {t} = useTranslation();
     const [color, setColor] = useState("linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%");
+    const [imgUrl, setImgUrl]= useState(`./assets/img/technologyLogoWhite/`)
     const project =t('technologies', {returnObjects: true});
     for (const i of project){
         if(i.id === props.value){
             return (
                 <li
-                    onMouseOver={() => setColor(i.bgColor)}
-                    onMouseOut={() => setColor("linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%")}
+                    onMouseOver={() => {
+                        setColor(i.bgColor)
+                        setImgUrl(`./assets/img/technologyLogoColor/`)
+                    }}
+                    onMouseOut={() => {
+                        setColor("linear-gradient(135.07deg, #0C0C0C 0%, rgba(12, 12, 12, 0) 100%")
+                        setImgUrl(`./assets/img/technologyLogoWhite/`)
+                    }}
                     className="info_second_li"
                     style={{background: color}}
                 >
                     <img
-                        src={`./assets/img/technologyLogoColor/${i.img}`}
+                        src={`${imgUrl}${i.img}`}
                         alt={i.title}
                     />
                     <h5>{i.title}</h5>

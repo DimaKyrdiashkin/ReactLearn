@@ -58,6 +58,7 @@
     background-color: transparent;
     border: none;
     color: white;
+    cursor: pointer;
 }
 .projectsMass_add:after{
     width: 100%;

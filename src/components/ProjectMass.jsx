@@ -28,7 +28,7 @@ const ProjectMass = ({id, home}) => {
                 <FunProjectItem mass={massRes} massStop={massStop}/>
             </ul>
             <div className="projectsMass_footer">
-            <NavLink to={home} className="projectsMass_prev"><b>BACK TO MAIN PAGE</b></NavLink>
+            <NavLink to={home} className="projectsMass_prev"><b>{t('projects.back')}</b></NavLink>
             <ButtonBlock setMassStop={setMassStop} massStop={massStop} mass={massRes}/>
             </div>
         </>

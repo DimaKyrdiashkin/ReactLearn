@@ -38,7 +38,6 @@ const ProjectName = () => {
     let linkBack ;
     for(const value of t('category', {returnObjects: true})){
         if(value.id === res.idCategory){
-            console.log(true)
             linkBack = value.url;
         }
     }
@@ -137,9 +136,7 @@ const ProjectName = () => {
                 </div>
                 <NavLink className="project_back" to={linkBack}><b>{t("strProject.back")}</b></NavLink>
             </div>
-
             <Form form={t('form', {returnObjects: true})}/>
-
         </section>
     )
 }
@@ -168,6 +165,4 @@ const TechnologyProject = ({item}) => {
             )
         }
     }
-
-
 }
