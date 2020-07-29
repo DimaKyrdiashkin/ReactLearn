@@ -8,38 +8,57 @@ import telegram from "./../assets/soc/telegram.svg"
 const Form = ({form}) => {
     const [messenger, setMessenger] = useState("")
     const [email, setEmail] = useState("")
-    const [name, setName] = useState("")
-    const formSubmit = (e) => {
+    const [phone, setPhone] = useState("")
+    async function formSubmit(e){
         e.preventDefault();
-        if(email.length<1 || name.length<2){
+        if (email.length < 1 || phone.length < 2) {
             alert("не заполнили форму")
 
-        }
-        const date = {
-            "name": name,
+        } else if (phone.length < 10)
+            alert("не вписав полний номер")
+
+        const data = {
+            "phone": phone,
             "email": email,
             "messenger": messenger
         }
-        console.log(JSON.stringify(date))
+        const url = 'http://test.venstop.pro/functions.php';
+        try {
+            const response = await fetch(url, {
+                method: 'POST', // или 'PUT'
+                body: JSON.stringify(data), // данные могут быть 'строкой' или {объектом}!
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+            console.log(response)
+            const json = await response.json();
+            console.log('Успех:', JSON.stringify(json));
+        } catch (error) {
+            console.error('Ошибка:', error);
+        }
     }
     return (
         <div className="form">
             <div className="container">
                 <h2 className="emphasize">{form.title}</h2>
-                <form className="clients_form" onSubmit={formSubmit} action="#" >
+                <form className="clients_form" onSubmit={formSubmit} action="#">
                     <textarea
                         className="clients_textarea"
                         name="messenger"
                         value={messenger}
-                        onChange={(e)=>setMessenger(e.target.value)}
+                        onChange={(e) => setMessenger(e.target.value)}
                     />
                     <input
                         className="clients_input"
                         type="name"
-                        name="name"
+                        name="phone"
+                        onKeyUp={(e) => {
+                            setPhone(phone.replace(/\D/g, ''))
+                        }}
                         placeholder={form.phone}
-                        value={name}
-                        onChange={(e)=>setName(e.target.value)}
+                        value={phone}
+                        onChange={(e) => setPhone(e.target.value)}
                     />
                     <input
                         className="clients_input"
@@ -47,7 +66,7 @@ const Form = ({form}) => {
                         name="email"
                         placeholder={form.email}
                         value={email}
-                        onChange={(e)=>setEmail(e.target.value)}
+                        onChange={(e) => setEmail(e.target.value)}
                     />
                     <input
                         className="clients_submit"
