@@ -13,10 +13,11 @@ const Form = ({form}) => {
         e.preventDefault();
         if (email.length < 1 || phone.length < 2) {
             alert("не заполнили форму")
-
-        } else if (phone.length < 10)
+            return false;
+        } else if (phone.length < 10) {
             alert("не вписав полний номер")
-
+            return false;
+        }
         const data = {
             "phone": phone,
             "email": email,
