@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import './Header.scss';
 import logo from '../logo.svg';
 import NavBar from './NavBar'
 import {useTranslation} from "react-i18next";

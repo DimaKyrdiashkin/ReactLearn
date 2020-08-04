@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import './ProjectName.css'
+import './ProjectName.scss'
 import {useTranslation} from "react-i18next";
 import {NavLink, useParams} from 'react-router-dom'
 import bg from "../../assets/info_bg.png";

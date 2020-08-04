@@ -6,13 +6,20 @@ import Images from "../../assets/promoImg/promo1.png";
 import Projects from "../../components/Projects";
 import Client from "../../components/Client";
 import {useTranslation} from "react-i18next";
+import {Helmet} from 'react-helmet'
 
 
-const Web = (props) => {
+const Web = () => {
 
     const {t} = useTranslation();
     return (
         <>
+            <Helmet>
+                <title>Web Del</title>
+                <meta name="description" content="This is what you want to show as the page content in the Google SERP Listing" />
+                <meta property="og:title" content="Venstop"/>
+                <meta property="og:description" content="test test"/>
+            </Helmet>
             <PromoContent headText={t('web.promo.title')} promoSrc={Images}/>
             <InfoContext.Provider value={t('web.info', {returnObjects: true})}>
                 <Info/>

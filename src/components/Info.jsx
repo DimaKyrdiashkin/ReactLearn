@@ -1,5 +1,5 @@
 import React from "react";
-import './Info.css'
+import './Info.scss'
 import bg from './../assets/info_bg.png'
 import InfoFirst from "./InfoFirst";
 import InfoSecond from "./InfoSecond";

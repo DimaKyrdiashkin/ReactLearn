@@ -1,5 +1,5 @@
 import React from "react";
-import './Projects.css'
+import './Projects.scss'
 import {useTranslation} from "react-i18next";
 import Form from "../../components/Forms";
 import bg from "../../assets/info_bg.png";

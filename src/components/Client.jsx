@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import "./Client.css"
+import "./Client.scss"
 import bg from './../assets/info_bg.png'
 import Form from "./Forms";
 
