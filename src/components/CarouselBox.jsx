@@ -4,7 +4,7 @@ import img1 from '../assets/cat1.jpg';
 import img2 from '../assets/cat2.jpg';
 import img3 from '../assets/cat3.jpg';
 import img4 from '../assets/cat4.jpg';
-import './Carousel.css';
+import './Carousel.scss';
 
 export default class CarouselBox extends Component {
   render() {
